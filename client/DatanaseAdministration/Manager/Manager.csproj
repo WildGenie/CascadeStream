@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EA1FED3-39FD-48AC-A31B-42BA4C9E54AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.0.5674.31274</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>CascadeManager</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CS.Client.Common">
+      <HintPath>lib\CS.Client.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="DevExpress.Utils.v14.2">
+      <HintPath>lib\DevExpress.Utils.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="BasicComponents">
+      <HintPath>lib\BasicComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="CS.StorableModel">
+      <HintPath>lib\CS.StorableModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="DevExpress.XtraGrid.v14.2">
+      <HintPath>lib\DevExpress.XtraGrid.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.2">
+      <HintPath>lib\DevExpress.XtraEditors.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Sdk.StaticFace.NetBinding">
+      <HintPath>lib\TS.Sdk.StaticFace.NetBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v14.2">
+      <HintPath>lib\DevExpress.XtraTreeList.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2">
+      <HintPath>lib\DevExpress.Data.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.2">
+      <HintPath>lib\DevExpress.XtraBars.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="AForge.Video">
+      <HintPath>lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="TS.Sdk.StaticFace.Model">
+      <HintPath>lib\TS.Sdk.StaticFace.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="CS.Utils">
+      <HintPath>lib\CS.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v14.2">
+      <HintPath>lib\DevExpress.XtraLayout.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>lib\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Sdk.StaticFace.NetBinding.Utils">
+      <HintPath>lib\TS.Sdk.StaticFace.NetBinding.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Core.Model">
+      <HintPath>lib\TS.Core.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="CS.DAL">
+      <HintPath>lib\CS.DAL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CascadeFlowClient\FrmErrorList.Designer.cs">
+      <DependentUpon>FrmErrorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetColumnIndex.cs" />
+    <Compile Include="ManagerApp.cs" />
+    <Compile Include="ShowFaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ShowFaceForm.resx">
+      <DependentUpon>ShowFaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="DrawingCanvas.cs" />
+    <Compile Include="EditPictureControl.xaml.cs">
+      <DependentUpon>editpicturecontrol.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FrmCommonSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmCommonSettings.resx">
+      <DependentUpon>FrmCommonSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmCompareImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmCompareImages.resx">
+      <DependentUpon>FrmCompareImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmDeleteKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmDeleteKeys.resx">
+      <DependentUpon>FrmDeleteKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmCommonCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmCommonCategories.resx">
+      <DependentUpon>FrmCommonCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmDbSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmDbSearch.resx">
+      <DependentUpon>FrmDbSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmFaces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmFaces.resx">
+      <DependentUpon>FrmFaces.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmLogSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmLogSearch.resx">
+      <DependentUpon>FrmLogSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmPictureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmPictureEdit.resx">
+      <DependentUpon>FrmPictureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmQueryTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmQueryTemplates.resx">
+      <DependentUpon>FrmQueryTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmReplace.resx">
+      <DependentUpon>FrmReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmScoreValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmScoreValue.resx">
+      <DependentUpon>FrmScoreValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmVideo.resx">
+      <DependentUpon>FrmVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmWebCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmWebCam.resx">
+      <DependentUpon>FrmWebCam.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmWorkStatins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmWorkStatins.resx">
+      <DependentUpon>FrmWorkStatins.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Messages.cs" />
+    <Compile Include="MyVisual.cs" />
+    <Compile Include="MyVisualData.cs" />
+    <Compile Include="TemplateFieldsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoCaptureDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsResult.Designer.cs" />
+    <Compile Include="EditFaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="EditFaceForm.resx">
+      <DependentUpon>EditFaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmObjects.resx">
+      <DependentUpon>FrmObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmResults.resx">
+      <DependentUpon>FrmResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="FrmStatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmStatistic.resx">
+      <DependentUpon>FrmStatistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Program.cs" />
+    <Compile Include="SetName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="WordList.Designer.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CascadeFlowClient\FrmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CascadeFlowClient\FrmImport.resx">
+      <DependentUpon>FrmImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="CascadeFlowClient\FrmErrorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CascadeFlowClient\FrmErrorList.resx">
+      <DependentUpon>FrmErrorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="CascadeFlowClient\FrmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CascadeFlowClient\FrmSearch.resx">
+      <DependentUpon>FrmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="ProductInfo.cs" />
+    <Compile Include="MyVisualType.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="editpicturecontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

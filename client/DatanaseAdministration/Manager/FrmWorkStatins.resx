@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colAccess.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn2.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>BackwardDiagonal</value>
+  </data>
+  <data name="gridView2.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="labelControl4.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="groupControl2.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="colState.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridView2.Appearance.GroupButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="tbComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 158</value>
+  </data>
+  <data name="gridView2.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="gridView2.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="lbServiceState.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="gridView2.Appearance.HideSelectionRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.DetailTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colID.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="tbHardwareKey.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gridView2.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbComment.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridView2.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;lbServerState.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbServerState.Name" xml:space="preserve">
+    <value>lbServerState</value>
+  </data>
+  <data name="colComment.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridView2.Appearance.HorzLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridView2.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gridColumn4.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridView2.Appearance.FilterCloseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;gridControl2.Name" xml:space="preserve">
+    <value>gridControl2</value>
+  </data>
+  <data name="&gt;&gt;gridControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 190, 243</value>
+  </data>
+  <data name="gridView2.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView2.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Рабочие станции</value>
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>Удалить из БД</value>
+  </data>
+  <data name="btDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 47</value>
+  </data>
+  <data name="colHardwareKey.Caption" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="gridColumn4.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>69, 126, 217</value>
+  </data>
+  <data name="gridView2.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>231, 242, 254</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="colState.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.OddRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gridView1.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.FixedLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="btSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 47</value>
+  </data>
+  <data name="tbState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="tbHardwareKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gridView1.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridColumn2.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.RowSeparator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbHardwareKey.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gridView2.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbComment.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridControl2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 246</value>
+  </data>
+  <data name="gridView2.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="gridControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 330</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="btSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 288</value>
+  </data>
+  <data name="gridView2.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>59, 97, 156</value>
+  </data>
+  <data name="gridView1.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="colStatus.Caption" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 112</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 700</value>
+  </data>
+  <data name="cbStatus.Properties.Items" xml:space="preserve">
+    <value>Активный</value>
+  </data>
+  <data name="lbServerState.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="gridView2.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbServiceState.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 36</value>
+  </data>
+  <data name="tbState.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="&gt;&gt;tbName.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;lbServerState.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;colPosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPosition.Name" xml:space="preserve">
+    <value>colPosition</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="tbIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 85</value>
+  </data>
+  <data name="gridView1.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="gridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lbServerState.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="cbStatus.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.EvenRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbServiceState.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 14</value>
+  </data>
+  <data name="gridView2.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colComment.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>249, 252, 255</value>
+  </data>
+  <data name="colStatus.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="colName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>BackwardDiagonal</value>
+  </data>
+  <data name="gridView1.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="gridView1.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>59, 97, 156</value>
+  </data>
+  <data name="gridView1.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="colComment.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;tbIP.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Name" xml:space="preserve">
+    <value>tbIP</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colID.Name" xml:space="preserve">
+    <value>colID</value>
+  </data>
+  <data name="&gt;&gt;colID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridColumn1.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="gridView2.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="gridView1.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colPosition.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="gridView1.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="colAccess.Caption" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="colComment.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tbHardwareKey.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbHardwareKey.Name" xml:space="preserve">
+    <value>tbHardwareKey</value>
+  </data>
+  <data name="lbServiceState.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gridView1.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView2.Appearance.FilterCloseButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 254</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 14</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="cbStatus.Properties.Items1" xml:space="preserve">
+    <value>Не активный</value>
+  </data>
+  <data name="tbIP.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 340</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="colIP.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="colState.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="gridView2.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridView1.Appearance.ViewCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.Empty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 14</value>
+  </data>
+  <data name="colHardwareKey.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colID.Width" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>49, 106, 197</value>
+  </data>
+  <data name="gridView1.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="cbStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbServerState.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl2.Text" xml:space="preserve">
+    <value>Правила доступа</value>
+  </data>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 277</value>
+  </data>
+  <data name="tbIP.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gridControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>759, 288</value>
+  </data>
+  <data name="gridView2.Appearance.FilterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colPosition.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridView2.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="label2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colStatus.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="gridView2.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>249, 252, 255</value>
+  </data>
+  <data name="gridView2.Appearance.FilterCloseButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gridView2.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Maroon</value>
+  </data>
+  <data name="gridView2.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gridView2.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="colState.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gridView1.Appearance.OddRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView2.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gridView2.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>208, 224, 251</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Name" xml:space="preserve">
+    <value>colStatus</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>106, 153, 228</value>
+  </data>
+  <data name="gridView1.Appearance.FilterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;colIP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIP.Name" xml:space="preserve">
+    <value>colIP</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView2.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gridView1.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="tbName.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colIP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btDelete.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;colHardwareKey.Name" xml:space="preserve">
+    <value>colHardwareKey</value>
+  </data>
+  <data name="&gt;&gt;colHardwareKey.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridView1.Appearance.CustomizationFormHint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 64</value>
+  </data>
+  <data name="gridView2.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>49, 106, 197</value>
+  </data>
+  <data name="colPosition.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 274</value>
+  </data>
+  <data name="colHardwareKey.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridView2.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView1.Appearance.GroupButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="tbName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridView2.Appearance.GroupPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tbState.Name" xml:space="preserve">
+    <value>tbState</value>
+  </data>
+  <data name="&gt;&gt;tbState.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridView2.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 190, 243</value>
+  </data>
+  <data name="gridControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 26</value>
+  </data>
+  <data name="gridView1.Appearance.FixedLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+</root>

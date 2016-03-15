@@ -1,0 +1,3476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 610</value>
+  </data>
+  <data name="&gt;&gt;btCamera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbFlat.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbFirstName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v14.2" name="DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>DateTime</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 609</value>
+  </data>
+  <data name="lbCountry.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>DateTime</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbStreet.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbRegion.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn2_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn2_1.Name" xml:space="preserve">
+    <value>layoutViewField_layoutViewColumn2_1</value>
+  </data>
+  <data name="tbPhone.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbCountry.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1_1.Name" xml:space="preserve">
+    <value>layoutViewField_layoutViewColumn1_1</value>
+  </data>
+  <data name="lbCity.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbRegion.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="dtpBithday.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbComment.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btEditPicture.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbLastName.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCity.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gcImagesFullFace.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 609</value>
+  </data>
+  <data name="colIsMain.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 58</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="lbFlat.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbHome.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;cbSEX.Name" xml:space="preserve">
+    <value>cbSEX</value>
+  </data>
+  <data name="&gt;&gt;cbSEX.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cbCountry.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbHome.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbHome.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="dtpBithday.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbMobile.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label3.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbStreet.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btCamera.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbPassport.Name" xml:space="preserve">
+    <value>lbPassport</value>
+  </data>
+  <data name="&gt;&gt;lbPassport.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbComment.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbDistrict.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colIsMain.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v14.2" name="DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="cbAccessTemplate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="lbCity.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="cbCountry.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFlat.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSEX.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLastName.Text" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="lbLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 14</value>
+  </data>
+  <data name="lbSex.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="btAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btSave.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbMobile.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;lbDistrict.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbDistrict.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 14</value>
+  </data>
+  <data name="lbDistrict.Text" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="lbCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="tbFlat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="lbSex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 49</value>
+  </data>
+  <data name="lbBirthday.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbAccessTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="lbCity.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbPassport.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colName.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btPlayer.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbFirstName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbFirstName.Name" xml:space="preserve">
+    <value>lbFirstName</value>
+  </data>
+  <data name="cbSEX.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbHome.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="btSave.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colName.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbFirstName.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbHome.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbMobile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 147</value>
+  </data>
+  <data name="lbSurname.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbHome.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbStreet.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbStreet.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbLastName.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="lbLastName.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbStreet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA
+        AAB9Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/52AYP++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf//////////////////////////////////////rZV7/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf+Na0b/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP//////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////52A
+        YP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76q
+        lf//////////////////////////////////////3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/rZV7/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////////////////////
+        //99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/////////////////////////////////52AYP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////
+        ////////////////////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        //+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        ////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/vqqV//////////////////////////////////////99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/////////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////
+        ////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP////////////////////////////////+dgGD/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////
+        /////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        /////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/vqqV///////////////////////////////////////e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK////
+        //////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf++qpX/vqqV/76qlf++qpX/vqqV/41r
+        Rv99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76q
+        lf//////////////////////////////////////3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv//////////////
+        ////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz//////////////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////////////////////
+        //99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////
+        ////////////////////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/vqqV//////////////////////////////////////99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////
+        ////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////
+        /////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/vqqV///////////////////////////////////////e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv+tlXv/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP//////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP//////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf/Ov7D//////////////////////////////////////52A
+        YP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg////////////////////
+        //////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/52A
+        YP//////////////////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+dgGD//////////////////////////////////////52AYP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg////////////////////////////////////
+        //+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/52AYP//////////////
+        ////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+dgGD//////////////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/nYBg//////////////////////////////////////+dgGD/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW7///////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bv////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW7///////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bv////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW752A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/hWA4/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+kiWzPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>"Каскад-Поток" Анкета</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="btDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="lbDistrict.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colIsMain.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbFirstName.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Name" xml:space="preserve">
+    <value>btAdd</value>
+  </data>
+  <data name="lbHome.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="label2.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbFlat.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Name" xml:space="preserve">
+    <value>tbLastName</value>
+  </data>
+  <data name="tbMobile.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label1.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="btSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="&gt;&gt;lbCountry.Name" xml:space="preserve">
+    <value>lbCountry</value>
+  </data>
+  <data name="&gt;&gt;lbCountry.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbComment.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbRegion.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbCountry.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="colImageComment.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btCamera.Name" xml:space="preserve">
+    <value>btCamera</value>
+  </data>
+  <data name="&gt;&gt;btCamera.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btCancel.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbDistrict.Name" xml:space="preserve">
+    <value>lbDistrict</value>
+  </data>
+  <data name="&gt;&gt;lbDistrict.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cbCountry.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPassport.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="label2.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Name" xml:space="preserve">
+    <value>repositoryItemPictureEdit1</value>
+  </data>
+  <data name="tbMobile.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbCity.Name" xml:space="preserve">
+    <value>cbCity</value>
+  </data>
+  <data name="&gt;&gt;cbCity.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbPassport.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btFile.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbDistrict.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPassport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 116</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbPassport.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btEditPicture.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbDistrict.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="colImageComment.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;colImageComment.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colImageComment.Name" xml:space="preserve">
+    <value>colImageComment</value>
+  </data>
+  <data name="tbPassport.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbLastName.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFirstName.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;colIsMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIsMain.Name" xml:space="preserve">
+    <value>colIsMain</value>
+  </data>
+  <data name="&gt;&gt;lbCountry.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label3.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbLastName.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbStreet.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 49</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbBirthday.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="btFile.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbMobile.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbStreet.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbLastName.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbAccessTemplate.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbDistrict.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="btSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 601</value>
+  </data>
+  <data name="cbDistrict.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lbHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 98</value>
+  </data>
+  <data name="btCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbFlat.Name" xml:space="preserve">
+    <value>tbFlat</value>
+  </data>
+  <data name="&gt;&gt;tbFlat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbPhone.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbHome.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="cbRegion.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbSurname.Text" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="lbSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1016, 662</value>
+  </data>
+  <data name="lbRegion.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbDistrict.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 112</value>
+  </data>
+  <data name="cbStreet.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colImage.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btPlayer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAACbpJREFUWEfV
+        V2lUVEcWRgMqGVR0JGKOEDGuoBIFjLgxJmLU4GBi0AQ3wIMGBhEVF0RABFREFtkXWVqQRVBZm0UQVHZo
+        QLamEegGGpq1WcKOvm+qlyQ6SSbmZPJjvnO+U6/7Vd3v1q26t+pJ/L9hCuH7BgYGCkZGRmtNTU23GpuY
+        aBkdP65uaGi4mLybSThV0PF/DSmdHTtWmJ8wNYulRTyqLi1jtrM5nXwer7+L3zXA7Wzvrn3JakjJSH98
+        xdHRZv/+/RpkjLRo6J/DVG1tbaVLFpYO1Xn59aMdnRMTPT3UAJcHNrMRlWVMlNSwUNnUhJZeHvhjfVT/
+        eP+rl9zGNv+QoMB/7tu3ltiQFJn645DauXXb7syYuIJhNmdysKGJKsouhUdAGs46J8PSPRPWvs9g7f8c
+        57yycco1FdZ+qYjJLkRdFxu80Y7XpXWM+hNmpsbE1t9EJt8d07/ZscuQmZXNHaquoSoy83HF5RGsvHMQ
+        l8MmM+5HS9cwOvijQnK7R8BqHUQmg4fr4aU46ZqM8CdPwexjUbVdzH5rB7urxOZskenfh+TOjf84yKSn
+        dfTm5VPxoYnCGSfnN6O1exg9A2P/lZ19oyhi9sAmKA+2ofF4zi2iSjsYQ6etz9kS2++LJH4bU1RVVDc9
+        C6Y1dNDpVLRXFM67ZaC4rkc4y7aedyOXUBARl6hynPaLAZ3zmMpozOzVPaCnTzTeE0n9CtTU1OY5m1o8
+        bI2KpujuwTB3TER2RSdqmgeErP2Jg288/8wf+/1IRj0fl+8U4UzwXcRy4ii/9CDG5s2bl4nlfoGpG1eu
+        PcRw8xgsu+kOM8tQ0NIbkVfTg/zad6eg/5tMLmrH0Wt02KX5IqAuYELPTN+eaE0TSb4BDQ2Nv1t9tis5
+        78C31O3jdjjjmYukwnbQi3k/s4SHVMK0Uh7SSzuQwRAxXUDyW/BOwDfHpBBej6rBXkdvHMkxoA7Sjr5Q
+        UVP7WCz7M5YpLt5E+3wn74G6Jo4Z3Yb7AxaislsQmd0sbKNyWhHztBWxz1txN62ekIWHz1uQVNCGRMJH
+        +W2Iy+WS91zcJ/2iSf+oHMH4FgTSm/CV7SNo0vZge8LOodXb1L4jkm9VTEm1hUvNYtdpjPuqb4P+hQS4
+        xrEQlNKIwJQmoYGgNDZCMjgIzWDDITgXNr5P4BSSh6DEGiLWjEgiGp7dClpWM0IfcxCSzkZQahP8iA33
+        R/XQd3oGjZtGUH2o+lrtyJbbRHOGSFoE6S+VlP2iP/qIclivg6+sM2HsWgLrO5W4HskkztTjdkIDfJLZ
+        8EpsgPlNOoztHwp5wiEe5z0z4RpbhcA0DgIIfYjTHgkvcSOmDheCK3HkVgl0bJ9D0+YyFO4pUqstN6Rt
+        2LBhrlhbQkJLS0v2u4XL48NmzabObdwP3cvZOHStEMedi2DizoC5zwucDarBRRoL54KrscUwEGu/ccU6
+        QkH7yb5bWLffA7vMI3HSqxAXaLVk51fB3Lccx9xKoOdUgD22udh0wQVz7nwAJWuVUhUVdQWxvCj9NOS/
+        SNeZth9fbr6CPcSBw0Tc3KMUZ70rcNavCpZBTJwPrccp/0os3nUdcz4996tU+NweOpYPYBVWDasQkRNH
+        XYqx1z4P+857wMFPFiaXPqpWVlZeIpYXZYCcoknK9Fk0apXWPehaP4EBWYKzZPAVMhOHMCac7pKQRjbB
+        LqQWi7WvYObak2/zEzPSmkFugyU+Mw7B9ehaXIusxUWyBCc8GdBzLIC5lTsGg+cj7pxi+dKlqwXH90+Y
+        LbfoaPishfeplVvuY6/VYxjfZggH34xiwifuJe7EsxGa2ALPaBaUPrsEaRVjSCuLSZ7l1p/CRn1PnHR5
+        Au+4OoSRjetFNp99RA3M/crxnVM+7OycMBahQHl9/3HO8uXLPxRrCyE9R0Hbfv6q+FfLNidhj0UyTL3L
+        YHe3Gp4PBSnXhASSUum57YikN0BJyxKSSw5BaulhyGmY4XMDb9gH5OM+yYD0Qh4ek7RMIpkRRm+EcwyT
+        LN8L6F99hrBbFhi/v4wy0V0epqqqKivWFkJSZu4SPaVNsX2Lt2Zh54lEmHgUw5GE0D+pAbGkFmQVt6O4
+        sgvZxVyo69pBXsMUuiZ+8L3PQEFVF+o4g2Cx+1HF6kXRi05kFnARncmBB6kngkgevpyEsrvfoit6/dj6
+        1QoWRPOtNJwiM3eu8tKtrqVK2nmU1tEsHL2aBaeoWtxJbURCbiueV3Sgsr4X9c39iEmrQVRqNVjNfPQN
+        jmJwaAx9A6PgdQ+hsaUf5eTwyiFHcxyJmlf8S7KXGLBx8scAfSeV6aHVNE9WdgvR/MXVbbb8it1Oq/QK
+        xtfpM/C1BZ3UgTIEk/AnkdnkV3ehltOHtq4h9BKxoZExjE9MYIJQ0I6OjYNP/m/pGERVIx9PSRQePGvF
+        bbKE/7qWjtyYsxjJ0nl1TE+dJicnJy/WfAvvSUvP3aCqG1ChasCktp9kwMgug2wkFim1XBTUdKOOzK6D
+        P0zEx0Xik5OYJJyYmMT4+IQwEm0kCtVs4kBlJ6mQLbDxL0SAvw+Gcw9TWXe+bp43T1aHaP3yMBJj9rxF
+        6qc2mhT2fXqKQ+21IkXoxhOEZzQil0RA4EAnfwTDo+NCUYH45OQrsRMT+GF4jNwbhlBJIpBW0g6X8DJ4
+        +IajO/8M2rOPjWhrrbkxf/78D8Rav4op06dPX7RU85DfNqv6ES2bDkrPvgqnnbNxjxw+jJe9RGAYP5AI
+        /OTAK5EDYyQCfLIfGtoGkcVohxutCAHB99BRYof+0lMTFsY7HkhJSa0iGr99IRGD9JNao7LdNHyHA2dE
+        23mQ+salFSbXc+EWVoTHhRw0cvuFYoJIjIyS0A+Pg9c7hLK6TkSlVMMtMA0pCaEYqHGi+BXW45fO7E2d
+        MWPGJmJ7ukji9zFN4MQSTT3PXQ6V3bt9xihdv1Ec9GyFKSmrtp7P4BtRhKiEcsQmlyPiQTH8aU/gG5yA
+        lKQIcKu8Mc6+QbHyrwwcOfhFBBHXJDb/8HeCFHFYac6HK000DX1yddy4Qzr+k9SegFfUPv9hHPDphqEP
+        Bylp0ajK90frCx8MNbljsvkm1fbi2qi/2/flq9asuEjsrCR855n/J6YqKirOkZCU/HT+Yo0LanpX07Zf
+        ymnefav5hz3eAxMHAvmvKxhhr3uZzpONxY7DmY8uttleOvR0nfoaB0nJGVoyMjJyxMbvrvm7QHLhwoVz
+        JaZNU572/swvZResMPtQWctp0Todr41bt3qvX//JDSUlpdMyMrO/IjtIVV5eXiD8m6n2ZyCoXoJwzlyw
+        YME8QUERUCw4i1BQXv+Sj9O/CBIS/waFiz5Mrkw4hgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="colImage.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbCountry.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbCountry.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="btEditPicture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btFile.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbHome.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="dtpBithday.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="tbFlat.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbComment.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="tbMobile.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIsMain.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colImageComment.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="cbCountry.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPassport.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbDistrict.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbFirstName.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcImagesFullFace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cbSEX.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="tbPassport.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbPassport.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="label1.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbStreet.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="btDelete.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="btFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="lbPassport.Text" xml:space="preserve">
+    <value>Серия и номер паспорта</value>
+  </data>
+  <data name="lbPassport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 14</value>
+  </data>
+  <data name="lbSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colIsMain.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;colImage.Name" xml:space="preserve">
+    <value>colImage</value>
+  </data>
+  <data name="lbSurname.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;colImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbSex.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colIsMain.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbStreet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 112</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Домашний телефон</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 14</value>
+  </data>
+  <data name="&gt;&gt;cbAccessTemplate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBox2.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbLastName.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="tbFlat.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbHome.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbCity.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbComment.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbDistrict.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImage.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 22</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1_10.Name" xml:space="preserve">
+    <value>layoutViewField_layoutViewColumn1_10</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1_10.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbStreet.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btFile.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbRegion.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;colImageID.Name" xml:space="preserve">
+    <value>colImageID</value>
+  </data>
+  <data name="&gt;&gt;colImageID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.LayoutViewColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbRegion.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="tbFlat.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbPassport.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbStreet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 98</value>
+  </data>
+  <data name="lbCountry.Text" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="lbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 14</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="btPlayer.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbRegion.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 176</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Адрес прописки/проживания</value>
+  </data>
+  <data name="lbFirstName.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbComment.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="label1.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbFlat.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="lbFirstName.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lbComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 189</value>
+  </data>
+  <data name="dtpBithday.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>Combo</value>
+  </data>
+  <data name="btAdd.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbRegion.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbAccessTemplate.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbFlat.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbCity.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 642</value>
+  </data>
+  <data name="lbStreet.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btDelete.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFirstName.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;tbHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbHome.Name" xml:space="preserve">
+    <value>tbHome</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbPhone.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbMobile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbRegion.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbComment.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbBirthday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 96</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colImage.Caption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="tbLastName.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbFlat.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="cbSEX.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbAccessTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="btCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 601</value>
+  </data>
+  <data name="tbFirstName.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbCity.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbMobile.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbMobile.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="layoutViewCard1.Text" xml:space="preserve">
+    <value>TemplateCard</value>
+  </data>
+  <data name="&gt;&gt;lbRegion.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tbFirstName.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="label2.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="groupBox2.AppearanceCaption.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbFirstName.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbSurname.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="btFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btFile.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="tbPassport.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tbFlat.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbCity.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbSEX.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btSave.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbCity.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbSEX.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbPassport.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbStreet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbPassport.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbPassport.Name" xml:space="preserve">
+    <value>tbPassport</value>
+  </data>
+  <data name="lbBirthday.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbHome.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbHome.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;pageSetupDialog1.Name" xml:space="preserve">
+    <value>pageSetupDialog1</value>
+  </data>
+  <data name="&gt;&gt;pageSetupDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PageSetupDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbCity.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="tbMobile.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbMobile.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDistrict.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colImageComment.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbLastName.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 2</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbRegion.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="colIsMain.Caption" xml:space="preserve">
+    <value>Главное фото</value>
+  </data>
+  <data name="lbHome.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 610</value>
+  </data>
+  <data name="&gt;&gt;tbPassport.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbMobile.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tbMobile.Name" xml:space="preserve">
+    <value>tbMobile</value>
+  </data>
+  <data name="tbPassport.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colName.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;cbAccessTemplate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbAccessTemplate.Name" xml:space="preserve">
+    <value>cbAccessTemplate</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gcImagesFullFace.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbFlat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="lbFlat.Text" xml:space="preserve">
+    <value>Квартира</value>
+  </data>
+  <data name="lbCity.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="dtpBithday.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tbHome.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbBirthday.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="dtpBithday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 116</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbFlat.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbMobile.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btCamera.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;tbFlat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox2.AppearanceCaption.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btCamera.Text" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="btCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>Ellipsis</value>
+  </data>
+  <data name="&gt;&gt;lbStreet.Name" xml:space="preserve">
+    <value>lbStreet</value>
+  </data>
+  <data name="&gt;&gt;lbStreet.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcImagesFullFace.Name" xml:space="preserve">
+    <value>gcImagesFullFace</value>
+  </data>
+  <data name="&gt;&gt;gcImagesFullFace.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btPlayer.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbStreet.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbLastName.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbStreet.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lbFlat.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImage.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="btPlayer.Text" xml:space="preserve">
+    <value>Плеер</value>
+  </data>
+  <data name="btCancel.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbSex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="lbSex.Text" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="&gt;&gt;lbLastName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbPassport.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbStreet.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbSEX.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="colImageComment.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbStreet.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 28</value>
+  </data>
+  <data name="lbPassport.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="label3.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="btEditPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lbDistrict.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label3.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbStreet.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFlat.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImage.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="lbPassport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 96</value>
+  </data>
+  <data name="cbDistrict.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 77</value>
+  </data>
+  <data name="lbHome.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colName.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="tbHome.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDistrict.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colImageID.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;lbCity.Name" xml:space="preserve">
+    <value>lbCity</value>
+  </data>
+  <data name="&gt;&gt;lbCity.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btDelete.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="tbHome.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImage.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpBithday.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbStreet.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btDelete.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbCountry.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btEditPicture.Name" xml:space="preserve">
+    <value>btEditPicture</value>
+  </data>
+  <data name="&gt;&gt;btEditPicture.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbStreet.Name" xml:space="preserve">
+    <value>cbStreet</value>
+  </data>
+  <data name="&gt;&gt;cbStreet.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbRegion.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbRegion.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btPlayer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbBirthday.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbComment.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbLastName.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tbPassport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dtpBithday.EditValue" type="System.DateTime, mscorlib">
+    <value>01/01/2011 18:23:14</value>
+  </data>
+  <data name="label1.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbSurname.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbComment.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbRegion.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbRegion.Name" xml:space="preserve">
+    <value>cbRegion</value>
+  </data>
+  <data name="colImageComment.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="label2.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbSurname.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFlat.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbSEX.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbCity.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbCountry.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbSEX.Properties.Items" xml:space="preserve">
+    <value>Мужской</value>
+  </data>
+  <data name="lbSurname.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbLastName.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSEX.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbHome.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbBirthday.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbRegion.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbSurname.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbLastName.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;lbFlat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbFlat.Name" xml:space="preserve">
+    <value>lbFlat</value>
+  </data>
+  <data name="lbSurname.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbSex.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btEditPicture.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="btEditPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="label1.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbBirthday.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="layoutViewCard1.CustomizationFormText" xml:space="preserve">
+    <value>TemplateCard</value>
+  </data>
+  <data name="btSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lbSex.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="tbHome.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="cbCity.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbSurname.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbSEX.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbAccessTemplate.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 133</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbFirstName.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="btDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="tbPassport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 133</value>
+  </data>
+  <data name="cbCity.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="&gt;&gt;btPlayer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbSEX.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colImage.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;cbDistrict.Name" xml:space="preserve">
+    <value>cbDistrict</value>
+  </data>
+  <data name="&gt;&gt;cbDistrict.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbRegion.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbSex.Name" xml:space="preserve">
+    <value>lbSex</value>
+  </data>
+  <data name="&gt;&gt;lbSex.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbPassport.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbPhone.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbBirthday.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbSEX.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btSave.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 77</value>
+  </data>
+  <data name="tbFirstName.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="lbFirstName.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbHome.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colName.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btEditPicture.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbSex.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbCountry.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbRegion.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colImage.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;lbPassport.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 42</value>
+  </data>
+  <data name="&gt;&gt;lbSurname.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbSurname.Name" xml:space="preserve">
+    <value>lbSurname</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbFlat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 98</value>
+  </data>
+  <data name="&gt;&gt;dtpBithday.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbPhone.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="btPlayer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tbComment.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v14.2">
+    <value>None</value>
+  </data>
+  <data name="dtpBithday.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbSurname.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="btAdd.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbDistrict.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbDistrict.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbFlat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbSEX.Properties.Items1" xml:space="preserve">
+    <value>Женский</value>
+  </data>
+  <data name="tbLastName.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbCity.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbPassport.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Name" xml:space="preserve">
+    <value>btDelete</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbFirstName.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;lbPassport.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbComment.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbCountry.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbBirthday.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 14</value>
+  </data>
+  <data name="lbCity.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="lbSurname.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbCountry.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbSex.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbCity.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbStreet.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbMobile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="lbHome.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbDistrict.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbHome.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbPassport.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="tbHome.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btAdd.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="tbPhone.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="cbCity.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btCancel.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;lbFlat.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tbFlat.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tbFirstName.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;lbRegion.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbRegion.Name" xml:space="preserve">
+    <value>lbRegion</value>
+  </data>
+  <data name="label1.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="cbCountry.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="lbLastName.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbStreet.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutViewCard1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewCard, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewCard1.Name" xml:space="preserve">
+    <value>layoutViewCard1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbStreet.Text" xml:space="preserve">
+    <value>Улица</value>
+  </data>
+  <data name="lbStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 14</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbMobile.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;tbPhone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 42</value>
+  </data>
+  <data name="tbPhone.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons11" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit1</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.EditMask" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="tbHome.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSex.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btCancel.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 2</value>
+  </data>
+  <data name="&gt;&gt;btEditPicture.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbRegion.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbLastName.Name" xml:space="preserve">
+    <value>lbLastName</value>
+  </data>
+  <data name="&gt;&gt;lbLastName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cbStreet.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbMobile.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbHome.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tbComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 209</value>
+  </data>
+  <data name="&gt;&gt;btFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btFile.Name" xml:space="preserve">
+    <value>btFile</value>
+  </data>
+  <data name="&gt;&gt;tbSurname.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSex.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btEditPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btEditPicture.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="btEditPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 610</value>
+  </data>
+  <data name="tbMobile.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbFlat.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="colImage.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbCity.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colIsMain.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbFlat.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="lbCountry.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbComment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbComment.Name" xml:space="preserve">
+    <value>lbComment</value>
+  </data>
+  <data name="btEditPicture.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbFirstName.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btSave.Name" xml:space="preserve">
+    <value>btSave</value>
+  </data>
+  <data name="cbSEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="lbSurname.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbHome.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFlat.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="lbRegion.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="cbDistrict.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbBirthday.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbBirthday.Name" xml:space="preserve">
+    <value>lbBirthday</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="tbPassport.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 143</value>
+  </data>
+  <data name="lbComment.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lbSex.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="tbSurname.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btCamera.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btDelete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cbCity.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="lbFirstName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="&gt;&gt;cbCountry.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="lbFlat.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="colName.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbRegion.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colName.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbCountry.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btFile.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btCamera.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit1.Name" xml:space="preserve">
+    <value>repositoryItemButtonEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditFaceForm</value>
+  </data>
+  <data name="btCancel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbSurname.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbStreet.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImageComment.Caption" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="cbDistrict.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbBirthday.Text" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="lbBirthday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 14</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Name" xml:space="preserve">
+    <value>btCancel</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;lbSurname.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label3.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btCamera.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RK5CYII=
+</value>
+  </data>
+  <data name="lbBirthday.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbLastName.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="&gt;&gt;cbCountry.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons1" xml:space="preserve">
+    <value>123123</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v14.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repositoryItemButtonEdit1.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFlat.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbHome.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLastName.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v14.2">
+    <value>Center</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbHome.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbComment.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="btSave.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tbPhone.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImageComment.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="lbCity.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lbSurname.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbComment.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbPassport.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbSurname.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbHome.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="tbFirstName.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="btFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 609</value>
+  </data>
+  <data name="lbDistrict.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 63</value>
+  </data>
+  <data name="&gt;&gt;dtpBithday.Name" xml:space="preserve">
+    <value>dtpBithday</value>
+  </data>
+  <data name="&gt;&gt;dtpBithday.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;tbPhone.Name" xml:space="preserve">
+    <value>tbPhone</value>
+  </data>
+  <data name="&gt;&gt;tbPhone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btAdd.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="tbComment.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btDelete.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbLastName.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 273</value>
+  </data>
+  <data name="colImageComment.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="label2.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbFlat.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbPassport.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 8</value>
+  </data>
+  <data name="dtpBithday.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="lbFirstName.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImageComment.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="lbSex.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Data.v14.2" name="DevExpress.Data.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gcImagesFullFace.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btAdd.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="lbDistrict.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbHome.Name" xml:space="preserve">
+    <value>lbHome</value>
+  </data>
+  <data name="&gt;&gt;lbHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbLastName.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;tbComment.Name" xml:space="preserve">
+    <value>tbComment</value>
+  </data>
+  <data name="&gt;&gt;tbComment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="tbSurname.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbHome.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbHome.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="colIsMain.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbSEX.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbPassport.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbCountry.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpBithday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="label1.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cbRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="cbDistrict.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gcImagesFullFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 8</value>
+  </data>
+  <data name="lbDistrict.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImage.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="groupBox2.AppearanceCaption.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="groupBox2.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="lbRegion.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbCountry.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="btPlayer.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcImagesFullFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 595</value>
+  </data>
+  <data name="cbSEX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 69</value>
+  </data>
+  <data name="tbPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 147</value>
+  </data>
+  <data name="&gt;&gt;tbComment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="cbCity.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btFile.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="tbLastName.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbPassport.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="btCamera.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="tbLastName.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btEditPicture.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="tbLastName.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIsMain.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbRegion.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btPlayer.Name" xml:space="preserve">
+    <value>btPlayer</value>
+  </data>
+  <data name="cbCity.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btPlayer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbRegion.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbFirstName.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn2.Name" xml:space="preserve">
+    <value>layoutViewField_layoutViewColumn2</value>
+  </data>
+  <data name="lbRegion.Text" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="tbHome.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 14</value>
+  </data>
+  <data name="tbSurname.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="lbBirthday.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colName.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 69</value>
+  </data>
+  <data name="lbComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="lbComment.Text" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="&gt;&gt;cbCity.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbRegion.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCountry.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="colName.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbStreet.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>10, 36, 106</value>
+  </data>
+  <data name="tbSurname.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbHome.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbDistrict.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="cbStreet.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCountry.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="groupBox2.AppearanceCaption.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="cbStreet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbComment.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPassport.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gcImagesFullFace.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="cbCity.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="dtpBithday.Properties.VistaTimeProperties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>DateTime</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btCamera.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox2.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbFlat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 112</value>
+  </data>
+  <data name="dtpBithday.Properties.CalendarTimeProperties.Mask.EditMask" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="lbBirthday.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbComment.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="tbMobile.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbCountry.Name" xml:space="preserve">
+    <value>cbCountry</value>
+  </data>
+  <data name="&gt;&gt;cbCountry.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lbPassport.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutViewField, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutViewField_layoutViewColumn1.Name" xml:space="preserve">
+    <value>layoutViewField_layoutViewColumn1</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbComment.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="colIsMain.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbSex.Appearance.HoverImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbSurname.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v14.2">
+    <value>None</value>
+  </data>
+  <data name="cbAccessTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 163</value>
+  </data>
+  <data name="gcImagesFullFace.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;lvImagesFullFace.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Layout.LayoutView, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lvImagesFullFace.Name" xml:space="preserve">
+    <value>lvImagesFullFace</value>
+  </data>
+  <data name="cbCity.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbStreet.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btCamera.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbDistrict.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbDistrict.Appearance.DisabledImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbPhone.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="tbPassport.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbDistrict.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>SpinDown</value>
+  </data>
+  <data name="lbDistrict.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbSEX.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v14.2">
+    <value>Combo</value>
+  </data>
+  <data name="tbSurname.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbFirstName.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbFirstName.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tbHome.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFirstName.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;tbSurname.Name" xml:space="preserve">
+    <value>tbSurname</value>
+  </data>
+  <data name="&gt;&gt;tbSurname.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cbDistrict.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lbFlat.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbFlat.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lbSex.Appearance.PressedImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tbFirstName.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="lbHome.Text" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="cbAccessTemplate.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lbLastName.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btDelete.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="lbFlat.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbFirstName.Name" xml:space="preserve">
+    <value>tbFirstName</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbCity.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="btPlayer.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="dtpBithday.Properties.Mask.EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="cbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbMobile.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colImageComment.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+</root>

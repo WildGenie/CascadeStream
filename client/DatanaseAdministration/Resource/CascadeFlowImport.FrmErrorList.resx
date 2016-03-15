@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gvErrors.Appearance.HeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gvErrors.Appearance.FilterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Maroon</value>
+  </data>
+  <data name="colFileName.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colError.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colError.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.OddRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;colError.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colError.Name" xml:space="preserve">
+    <value>colError</value>
+  </data>
+  <data name="colComment.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.Empty.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 190, 243</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v14.2" name="DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gcErrors.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v14.2">
+    <value>Center</value>
+  </data>
+  <data name="gvErrors.Appearance.ViewCaption.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcErrors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gcErrors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcErrors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>986, 448</value>
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA
+        AAB9Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/52AYP++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf//////////////////////////////////////rZV7/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf+Na0b/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP//////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////52A
+        YP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76q
+        lf//////////////////////////////////////3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/rZV7/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////////////////////
+        //99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/////////////////////////////////52AYP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////
+        ////////////////////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        //+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        ////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/vqqV//////////////////////////////////////99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/////////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////
+        ////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP////////////////////////////////+dgGD/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////
+        /////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        /////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/vqqV///////////////////////////////////////e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK////
+        //////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf++qpX/vqqV/76qlf++qpX/vqqV/41r
+        Rv99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76q
+        lf//////////////////////////////////////3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv//////////////
+        ////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz//////////////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////////////////////////////////////
+        //99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////
+        ////////////////////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////
+        ////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP++qpX//////////////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////
+        /////////////////////////////76qlf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/vqqV//////////////////////////////////////99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs//////////////////////////////////////++qpX/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////
+        ////////fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP//////////////////////////////////////vqqV/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////
+        /////////////////////////////31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/vqqV///////////////////////////////////////e1cr/3tXK/97Vyv/e1cr/3tXK/97V
+        yv/e1cr/3tXK/97Vyv/e1cr/3tXK/97Vyv+tlXv/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/76qlf//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP//////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////
+        /////////////////////////////////////////////////////////////////////////////76q
+        lf99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/vqqV////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////++qpX/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/76qlf//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////vqqV/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP//////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP++qpX/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////76qlf99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////nYBg/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/76qlf++qpX/vqqV/76qlf++qpX/vqqV/76q
+        lf++qpX/vqqV/76qlf++qpX/vqqV/76qlf/Ov7D//////////////////////////////////////52A
+        YP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg////////////////////
+        //////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/52A
+        YP//////////////////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+dgGD//////////////////////////////////////52AYP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/nYBg////////////////////////////////////
+        //+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/52AYP//////////////
+        ////////////////////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+dgGD//////////////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/nYBg//////////////////////////////////////+dgGD/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/mHdW7///////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////nYBg/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bv////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/mHdW7///////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////nYBg/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////52AYP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bv////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////+dgGD/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW752A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52A
+        YP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/nYBg/52AYP+dgGD/hWA4/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/5h3Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3
+        Vu99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP+Yd1bvfVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/mHdW731WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31W
+        LP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/31WLP99Viz/fVYs/5h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3Vu+Yd1bvmHdW75h3
+        Vu+kiWzPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ошибки импортирования</value>
+  </data>
+  <data name="colError.Caption" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v14.2" name="DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gcErrors.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v14.2">
+    <value>None</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colFileName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gvErrors.Appearance.ViewCaption.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>106, 153, 228</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="gvErrors.Appearance.OddRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.DetailTip.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>986, 448</value>
+  </data>
+  <data name="colFileName.Caption" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="colFileName.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.Empty.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.OddRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colError.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="DevExpress.Data.v14.2" name="DevExpress.Data.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gcErrors.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v14.2">
+    <value>Default</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="colFileName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colComment.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="colFileName.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>208, 224, 251</value>
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colComment.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colComment.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>49, 106, 197</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>231, 242, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colError.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="gvErrors.Appearance.TopNewRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colComment.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="colError.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;gcErrors.Name" xml:space="preserve">
+    <value>gcErrors</value>
+  </data>
+  <data name="&gt;&gt;gcErrors.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gvErrors.Appearance.TopNewRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colError.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="gvErrors.Appearance.CustomizationFormHint.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.DetailTip.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.DetailTip.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.OddRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.CustomizationFormHint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colError.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colFileName.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colComment.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gcErrors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colFileName.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colError.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="colComment.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.Empty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.ViewCaption.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>69, 126, 217</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>59, 97, 156</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.Empty.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="colFileName.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.HideSelectionRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colFileName.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colComment.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcErrors.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colFileName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colError.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>249, 252, 255</value>
+  </data>
+  <data name="gvErrors.Appearance.CustomizationFormHint.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colComment.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>repositoryItemCheckEdit1</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.CustomizationFormHint.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButtonActive.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colComment.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.Empty.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;gcErrors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmErrorList</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colError.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>994, 478</value>
+  </data>
+  <data name="gvErrors.Appearance.DetailTip.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colComment.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.TopNewRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="colError.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colError.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>88, 129, 185</value>
+  </data>
+  <data name="gvErrors.Appearance.SelectedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colError.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;colComment.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComment.Name" xml:space="preserve">
+    <value>colComment</value>
+  </data>
+  <data name="gvErrors.Appearance.ViewCaption.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.HeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1002, 486</value>
+  </data>
+  <data name="colComment.Caption" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gvErrors.Appearance.TopNewRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gvErrors.Appearance.OddRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colFileName.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>BackwardDiagonal</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupFooter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.ViewCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.EvenRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="gvErrors.Appearance.FocusedCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;gcErrors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.DetailTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.ColumnFilterButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="&gt;&gt;colFileName.Name" xml:space="preserve">
+    <value>colFileName</value>
+  </data>
+  <data name="&gt;&gt;colFileName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gvErrors.Appearance.RowSeparator.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="colComment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gcErrors.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="gvErrors.Appearance.CustomizationFormHint.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.HorzLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="gvErrors.Appearance.FooterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="colComment.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gvErrors.Appearance.FixedLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;gvErrors.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvErrors.Name" xml:space="preserve">
+    <value>gvErrors</value>
+  </data>
+  <data name="gvErrors.Appearance.VertLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gvErrors.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="colFileName.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="gvErrors.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="gvErrors.Appearance.FilterCloseButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="colFileName.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+</root>

@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Name" xml:space="preserve">
+    <value>btEdit</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colPhotoDb.Caption" xml:space="preserve">
+    <value>Имя базы данных</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colFIO.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;colModifiedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colModifiedDate.Name" xml:space="preserve">
+    <value>colModifiedDate</value>
+  </data>
+  <data name="&gt;&gt;colArchiveDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colArchiveDate.Name" xml:space="preserve">
+    <value>colArchiveDate</value>
+  </data>
+  <data name="gbMain.Text" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="gbMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 318</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btRemoveKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="btRemoveKeys.Text" xml:space="preserve">
+    <value>Удалить ракурсы</value>
+  </data>
+  <data name="colID.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="btPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colModifiedDate.Caption" xml:space="preserve">
+    <value>Дата изменения записи</value>
+  </data>
+  <data name="btAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="btAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="colName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colUserName.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="colAddress.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripMenuItem5.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Shift+R</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AACBZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//v3//4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/3xqU/+BaUv/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM//79
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP/+/f//gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/d2VO/39lTf+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz//v3//4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM//79//+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP93ZU7/f2dL/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz///////////////////////////+BZkz/gWZM////////////////////////////gWZM/4Fm
+        TP+BZkz/gWZM/39nS/9/Z0v/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/31lT////////////////////////////4FmTP+BZkz/////////////////////////
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/39mTP+BZkz/gWZM/4FmTP+BZkz/fGRO/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/fGRQ/////////////////////////////v3///79////////////////
+        /////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/f2ZM/4FmTP+BZkz/gWZM/4FmTP98ZE7/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP99ZFD///////////////////////////98ZE7/f2ZS////
+        //////////////////////v/gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xk
+        Tv+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/39lTf/+/f///v3///79///+/f///v3//4Fm
+        TP+BZkz//v3///79///+/f///v3///79//+BZkz/gWZM/4FmTP+BZkz/gWZM/39mTP+BZkz/gWZM/4Fm
+        TP+BZkz/fGRO/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM//////+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/f2ZM/4Fm
+        TP+BZkz/gWZM/4FmTP98ZE7/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP///////v3///f6///////////5/4FmTP+BZkz///////////////////////////+FbVX/gWZM/4Fm
+        TP+BZkz/gWZM/39mTP+BZkz/gWZM/4FmTP+BZkz/fGRO/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM///////9//////7/////////////gWZM/4FmTP///////////////////////////4Nn
+        Sf+BZkz/gWZM/4FmTP+BZkz/f2ZM/4NlTP98aEn/gWZM/4FmTP98ZE7/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz///////r//////v//////////////////////////////////////////
+        ////////gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/31m
+        TP9/Zkz/gWZM/4FmTP+BZkz/gWZM/4FmTP////////////b//////////////4FmTP+BZkz/////////
+        //////////////////+CbEn/gWZM/4FmTP+BZkz/f2ZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////////////////////////////gWZM/4Fm
+        TP///////////////////////////3xkRv+BZkz/gWZM/4FmTP+BZ0n/gWdJ/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP9/Zkz/gWdJ/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////hmdO/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWRJ/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        //96YUf/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz///////////////////////////98Zk3/fGdM////
+        +///////////////////////gWZM/4FmTP////////7+///////69fL////5/4FmTP+BZkz/////////
+        /P////////7///z49/+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP///////////////////////////4Fm
+        TP+BZkz///////////////////////////+BZkz/gWZM/////////////////////////v//gWZM/4Fm
+        TP///////////////////////////4FmTP+BZkz/gWZM////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////+
+        ////////////////////////////////////////////////////////gWZM/4FmTP+BZkz/////////
+        //////////////////+DZkv/gWRP////////////////////////////fGVL/3hdQ///////////////
+        //////////v7/3djUv+BZkz///////////////////////////+BZkz/hWdK/4FmTP+BZkz/gWZM/4Fm
+        TP///////////////////////////4FmTP+BZkz///////////////////////////9/ZU3/h2hP////
+        //////////////////////n/gWZM/4FmTP///////////////////////////4FmTP+CZ03/gWZM/4Fm
+        TP+BZkz/fWVN/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP9/ZFD/gWZM//////+BZkz/gWRP/39l
+        Tf+BZkz/gWZM/4RmSf//////gWZM/4hmSP+BZkz/gWZM/4hmSP+BZkz//////35kTP98ZU//fGZN/4Bo
+        TP+BZkz/gWZM/4RoRv+DZ0n/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz//////4Jn
+        Tf+DZE3/hmdI/4ZkTP+BZkz/hGZJ//////+BZkz/hGZJ/4FmTP+BZkz/hGZJ/4FmTP//////gmVK/4Fn
+        Sf+DZ0j/hGhK/4FmTP+BZkz/gWZM/4FmTP///////////////////////////4FnSf+BZkz/////////
+        //////////////////+DaE7/gWVN////////////////////////////gWZM/4FmTP//////////////
+        /////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////////////////////////////hGZJ/4Fm
+        TP///////////////////////////4NnT/9/Zkz///////////////////////////+BZkz/gWZM////
+        ////////////////////////gWZM/4FmTP+BZkz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+BZkz/gWZM/4FmTP//////////////
+        /////////////4FmTP+BZkz///////////////////////////+BZkz/gWZM////////////////////
+        ////////gWZM/3dpU////////////////////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        ////////////////////////gWZM/4FmTP////////////////////////77/4FmTP+BZkz/////////
+        //////////////////+GaU7/g2dP////////////////////////////gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/fWVN/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM//////+BZkz/gWZM/4FmTP+FaVH/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP97ZE7/gWZM/4FmTP+BZkz/gWZM//////+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP//////gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4BmSP+BZkz/gWZM//////+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP97ZE7/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/AAAAAMAAAADAAAAAwAAAMLhAADC4QAAwuEGEMLhAADC4AAAwuAAB8KAa
+        A/CIHAP8mBgCcJgIAnAAAAJwGAQCAAAEAAAA4Cx4AAAEAAAABAAAwYYCAAGEAiAzJJ5gF6SeAIGAAACB
+        gAAAAAAAAAABAAACAwAAQAEAgEABAEAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>База данных</value>
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>Отправить в архив</value>
+  </data>
+  <data name="btDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="btRemoveKeys.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Name" xml:space="preserve">
+    <value>btAdd</value>
+  </data>
+  <data name="progressBarControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colTemplate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTemplate.Name" xml:space="preserve">
+    <value>colTemplate</value>
+  </data>
+  <data name="labelControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btEdit.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btStop.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;gbMain.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btRemoveKeys.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gridControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>731, 711</value>
+  </data>
+  <data name="colPhotoDb.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="btCreateKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colStatus.Caption" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="toolStripMenuItem6.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Shift+S</value>
+  </data>
+  <data name="colAddress.Caption" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 730</value>
+  </data>
+  <data name="btPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 209</value>
+  </data>
+  <data name="btAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAN0AAADdAECK0FFAAAFfUlE
+        QVRYR72Xf0zUZRzHP2fUMQtMmGGxNedSt+wff0RtsdO1amzNtdHSjU2amunCrbKN5lasRuuXqUFzpAxM
+        1FMpSSDNQLhGhcWPnG1cosiBgPz+dYcgh/Du83nuvnTf+x7H12o923t3z+d57nm9P5/nB0oA/lPRF/Qw
+        fUUHKJeclEMddJAGKZ+aaD9H7LTEMF/XIVrEWvuPdC89Qx9SGWWT13bOhsyGTNiv22Fvs6vvEmMTU7SH
+        TtNLdNdMBtaOj49jeNiNYbcbbrcHbo8HHs8IPCMjGBHdvImbmkZHMcryjHiQeCoR1gIr0p3pyG/PR+71
+        XGQ3ZiP7Srb6nt+aj/RL6bAes4qRKvqS7g5pQODtHTdwo7MTnV1d6OruRndPD3p6e9Hb14c+UX8/+gcG
+        ppVcmgzLEQtSalKQ0ZyB910ZeKsmjZf0tbfr0vBxawbea8pASm0KLIct4EoVMs9iMODmzP+G9zDcB1bw
+        APDA4CAGWRdafoVlvwXxpfFIdaZi6+VU7GxKxaaKJGGrts2RhAyXL76lIRXxZfFiwEvv0iNGA1zyzq6g
+        rAXsh2vgwaEhpQ0lG0B5hKW/LMXTF21Y32BD2lX+LF0ubNVSzy7HOy5/nMeXOZaCCgiURScNBmS/DXAB
+        a3CGDg0P8zkZVmNxB+JApQTLaQticqx47NB8rDkag4TdUcJWzbY3Ci+cjIHt6HwsybMi+gxvwWE2sJfa
+        DAbkoBng/qyHNLg6oG5ldG7uXNApXuwTWcJci/qM5xex9tGA0QCfbgM8IGsB+26GB918QKMPRoO+5sU+
+        NW/g/j08n6vGb8SowYBcr5Bwf9YCVldSjHKlFhxZAPqOF/uWeAsIy/g8JB4lPMlZau25zwkvFvriMh57
+        hud/w8qjPqMBvtch4f6sZYu0N0AOpq2QHxiGi4nYcsLKakLyRcI6jmltI2f7eqMvLuP3nOX5xayP6LzB
+        gDwsIeH+h0jgMmdsbExtyfGy44goiQCVECIYuqiM8NRPhDV8LrT2PBtIrvHF4773w4v5VUyi9UYDvLAZ
+        +K1bt5Ta29ux+sRq0A+8KBuI5FIv4mo8yp9ae5zjK9nYQrktcl5k//fRb8x70GBAFpfTrh24wLIHwuXJ
+        9nq9avxc+TksLloM4i2QxeccIUTxfi9kPcR64DiX3c5jclvYiPrjFKH+hlhDGjALF8l3eSOKS4qxonAF
+        qNIPOcGSbAUqYnMR5bxVu+kKRdI6Zt3HMj7FYwzQSj8bXDQxMaE+5Z2orKzErqxdSLAnYF7FPESWRyKq
+        MgqxZbFYdWwVMg9kCuQNVrTAFTPYgECm9z0MXMCabt++rT7FbFtbG6qqqlBQUICcnBzk5eXBbrfD4XCo
+        d4MZz2rwGQ3oSh8mcw2uaXJyUsVkvvxek6wjMRkXho6p64gBBkn24Uo/E1zT1NTUjJrVgIDCZR8Mnw0c
+        OD7JfXMGgrI3k3kwVObJb+T3so5aa9xrzoBWfrPZa2BpEpe5UkW5GfIvKDl8oua2Dg8zntB4otAGwux9
+        uMwlLr+Th6yjowNOpxO1tXWoravH5avN3pdf2fwBM+bomLqOGGCQmfIHG5CYzJesnc4/1bWrrr6ApmvX
+        4HK1TG3Ztj07GK6Yug4bEJhmYLbyB2Yvc+QFbWlpwfnzFWrc6x1Ha2srXt2RdigUXDF1nQADd1J+iYlh
+        2e/6+t/5Ifp5Gr5j55tFvO70wxMsfUczcIf7L2PyeEn2DsePaGy8Ygou0ndmMBCq/MEGpPwCrmADzS7X
+        1Na016TsYeEifcdvIPgGhDMgTebIyZdT/4ezcWLTtu1ZZuAifYcNyMLeGYCB4EBN8Jwh9wguXW7ybNy8
+        OdMsXKTv/Jv/nPqUwDINF4UM/n8C/QWbNveNnQCTvQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 175</value>
+  </data>
+  <data name="btPrint.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 73</value>
+  </data>
+  <data name="&gt;&gt;gbMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="&gt;&gt;btRemoveKeys.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="colUserName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colAddress.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;btAdd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBarControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 498</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btImport.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="groupControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colModifiedDate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colAddress.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colStatus.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="toolStripMenuItem4.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Shift+V</value>
+  </data>
+  <data name="&gt;&gt;colID.Name" xml:space="preserve">
+    <value>colID</value>
+  </data>
+  <data name="&gt;&gt;colID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btCreateKeys.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btCreateKeys.Name" xml:space="preserve">
+    <value>btCreateKeys</value>
+  </data>
+  <data name="colBirthday.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colModifiedDate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="btAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="btEdit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="colPhotoDb.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colUserName.Caption" xml:space="preserve">
+    <value>Изменил</value>
+  </data>
+  <data name="colArchiveDate.Caption" xml:space="preserve">
+    <value>Дата отправки в архив</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 14</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 711</value>
+  </data>
+  <data name="btStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 518</value>
+  </data>
+  <data name="toolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+G</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btArchive.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btArchive.Name" xml:space="preserve">
+    <value>btArchive</value>
+  </data>
+  <data name="toolStripMenuItem3.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Shift+C</value>
+  </data>
+  <data name="colID.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btRemoveKeys.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btRemoveKeys.Name" xml:space="preserve">
+    <value>btRemoveKeys</value>
+  </data>
+  <data name="&gt;&gt;btImport.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gridControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="btDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="&gt;&gt;colBirthday.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBirthday.Name" xml:space="preserve">
+    <value>colBirthday</value>
+  </data>
+  <data name="colModifiedDate.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;btArchive.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colStatus.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colTemplate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.Name" xml:space="preserve">
+    <value>progressBarControl1</value>
+  </data>
+  <data name="toolStripMenuItem2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+D</value>
+  </data>
+  <data name="&gt;&gt;btPrint.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 730</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbMain.Name" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="&gt;&gt;gbMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Name" xml:space="preserve">
+    <value>colStatus</value>
+  </data>
+  <data name="btImport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btArchive.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADZElEQVRYR62WyUorQRSGhbvwDdz5HPfl
+        XLiLAwYcggZHFCWOicG9E86CihJnxaVT1E5iHNBzz39M9a3qaiWpWPBzIp2q+qrOZ5MaIvoxqVRKJcrx
+        Kk0ymSSuUa5/ODUq/gjbVI82yfv4+KBKw/Ooubm5MDU11a6tVdqdR9imerRJ3vv7O729vVUUnkfn5+cW
+        hD/CNtXD1yeZmZnxXl9f6eXlpaIA4P7+XiCampoKk5OTAuEPfbOwoQCmp6edAZ6fnw2IiYmJ9tLyJgBk
+        4YTKxPmcm5sjZHZ2ltLptF+xycrKCm1tbdHV1ZXUYrEowTP1+e7ujs7OzigSiRTGx8e/IHQA/rKzaNFo
+        lLa3t+W0evAsLHwLHm9fawFUI1praystLS3JDQRB9KCVfAMAqDMAfkO0trY2ASgUCt8G7UgkEgCoNwB+
+        S7SWlhZaXFykzc1Nury8NGo+n5fvjo2N2QD8fyoAIBwaGpKT/FSVXABQn5VoaMfGxgblcjkruIXR0VEb
+        AGLgRHq/ygkAwsIHoqOjIwG5uLjwgQAwMjJiA0AMBVDODQRB9OAmuaXSEs/zjABgeHjYBoAYuEYlSzXB
+        OriBTCZDT09PRuABH8AGgBigL31BpHGpSjQ+EC0vL9P6+rp4gfr4+ChtGBwctAEgBuh1YVyDdbildHBw
+        QA8PD0bQhoGBARsAYigAnATSuFQFwAeSF9Pa2hqdnp5KVQB9fX02AMTARF0Y12Adbint7+9TNps1Ag96
+        e3ttAKb30L+gNC7BOnwgeSGtrq7SycmJVLys8Dwej9sAEAPXB1FwlZDGpSrRuKW0t7cnLyc9eN7T02MD
+        QAxcX1Aal2AdwCwsLMjJj4+PpSqA7u5uGwBiKABMhjQuVQfY3d2l29tbI3gei8VsAIiB/gSlcQnW6e/v
+        p/n5efmxcnh4KPXm5kaed3V12QBxFgMTIQrocWUuVYkGgJ2dHdlUDwA6OzttAIiB/gSlcQnW4ZYKwPX1
+        tREAdnR02AAQQwGUc9LvqgLg9T4bGxtz2CyYhoaGBAOYv4ggBgQJSuMSrMN9zvEmf+Wkduo45m9CiIH+
+        oE84CaRxqarPvmg/DR0AYiiAamOIFthHj/EHegNBgtK4xBCtAoCokuQ34otWLkBp1HIwSclSTb5E46Hv
+        8z9U8w9cvnizjIIQrQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btPrint.Text" xml:space="preserve">
+    <value>Экспорт в Excel</value>
+  </data>
+  <data name="btDeleteArchive.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="&gt;&gt;btArchive.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btDelete.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colBirthday.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colFIO.Name" xml:space="preserve">
+    <value>colFIO</value>
+  </data>
+  <data name="&gt;&gt;colFIO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 145</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 329</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btDeleteArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 141</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="colFIO.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colArchiveDate.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;btPrint.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btCreateKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 243</value>
+  </data>
+  <data name="btDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;btStop.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btDeleteArchive.Name" xml:space="preserve">
+    <value>btDeleteArchive</value>
+  </data>
+  <data name="&gt;&gt;btDeleteArchive.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btRemoveKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="colPassport.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btImport.Name" xml:space="preserve">
+    <value>btImport</value>
+  </data>
+  <data name="&gt;&gt;btImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="menuStrip1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colUserName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colUserName.Name" xml:space="preserve">
+    <value>colUserName</value>
+  </data>
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 5</value>
+  </data>
+  <data name="colModifiedDate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Name" xml:space="preserve">
+    <value>btDelete</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btDeleteArchive.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btStop.Name" xml:space="preserve">
+    <value>btStop</value>
+  </data>
+  <data name="&gt;&gt;btStop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btArchive.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btPrint.Name" xml:space="preserve">
+    <value>btPrint</value>
+  </data>
+  <data name="&gt;&gt;btPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPhotoDb.Name" xml:space="preserve">
+    <value>colPhotoDb</value>
+  </data>
+  <data name="&gt;&gt;colPhotoDb.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btAdd.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colTemplate.Caption" xml:space="preserve">
+    <value>Наличие биометрического шаблона</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Name" xml:space="preserve">
+    <value>colAddress</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1020, 24</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="progressBarControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 18</value>
+  </data>
+  <data name="&gt;&gt;btDelete.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="&gt;&gt;btStop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btStop.Text" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+  <data name="btStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="colName.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
+    <value>pictureEdit1</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colTemplate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="progressBarControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colTemplate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBirthday.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btDeleteArchive.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btDeleteArchive.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="btDeleteArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="colPassport.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colBirthday.Caption" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmFaces</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 5</value>
+  </data>
+  <data name="gbMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="colArchiveDate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colBirthday.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colPassport.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 347</value>
+  </data>
+  <data name="groupControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="colName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colStatus.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="toolStripMenuItem6.Text" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;btDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="colUserName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="btArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="btArchive.Text" xml:space="preserve">
+    <value>Архивные</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colStatus.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>12312312</value>
+  </data>
+  <data name="&gt;&gt;colPassport.Name" xml:space="preserve">
+    <value>colPassport</value>
+  </data>
+  <data name="&gt;&gt;colPassport.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colAddress.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btImport.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btCreateKeys.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;btCreateKeys.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colFIO.Caption" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="btImport.Text" xml:space="preserve">
+    <value>Импортирование</value>
+  </data>
+  <data name="btImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="colArchiveDate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="btArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="btEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;btDeleteArchive.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="btRemoveKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 277</value>
+  </data>
+  <data name="btDeleteArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btDeleteArchive.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btImport.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progressBarControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="colUserName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colArchiveDate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTemplate.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="colFIO.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btCreateKeys.Text" xml:space="preserve">
+    <value>Построить ракурсы</value>
+  </data>
+  <data name="btCreateKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="&gt;&gt;btCreateKeys.Parent" xml:space="preserve">
+    <value>gbMain</value>
+  </data>
+  <data name="colFIO.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gbMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colPassport.Caption" xml:space="preserve">
+    <value>Серия и номер паспорта</value>
+  </data>
+  <data name="colID.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btStop.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colPassport.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+</root>

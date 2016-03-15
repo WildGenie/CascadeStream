@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dtpBefore.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>BackwardDiagonal</value>
+  </data>
+  <data name="&gt;&gt;colResult.Name" xml:space="preserve">
+    <value>colResult</value>
+  </data>
+  <data name="&gt;&gt;colResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="btPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioGroup1.Properties.Items5" xml:space="preserve">
+    <value>Недели</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioGroup1.Properties.Items4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items7" xml:space="preserve">
+    <value>Месяцы</value>
+  </data>
+  <data name="radioGroup1.Properties.Items6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items1" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="radioGroup1.Properties.Items3" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="radioGroup1.Properties.Items2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioGroup1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 190, 243</value>
+  </data>
+  <data name="colTime.Caption" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dtpBefore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 85</value>
+  </data>
+  <data name="radioGroup1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colResult.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AACBZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//v3//4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/3xqU/+BaUv/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM//79
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP/+/f//gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/d2VO/39lTf+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz//v3//4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM//79//+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP93ZU7/f2dL/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz///////////////////////////+BZkz/gWZM////////////////////////////gWZM/4Fm
+        TP+BZkz/gWZM/39nS/9/Z0v/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/31lT////////////////////////////4FmTP+BZkz/////////////////////////
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/39mTP+BZkz/gWZM/4FmTP+BZkz/fGRO/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/fGRQ/////////////////////////////v3///79////////////////
+        /////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/f2ZM/4FmTP+BZkz/gWZM/4FmTP98ZE7/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP99ZFD///////////////////////////98ZE7/f2ZS////
+        //////////////////////v/gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xk
+        Tv+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/39lTf/+/f///v3///79///+/f///v3//4Fm
+        TP+BZkz//v3///79///+/f///v3///79//+BZkz/gWZM/4FmTP+BZkz/gWZM/39mTP+BZkz/gWZM/4Fm
+        TP+BZkz/fGRO/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM//////+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/f2ZM/4Fm
+        TP+BZkz/gWZM/4FmTP98ZE7/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP///////v3///f6///////////5/4FmTP+BZkz///////////////////////////+FbVX/gWZM/4Fm
+        TP+BZkz/gWZM/39mTP+BZkz/gWZM/4FmTP+BZkz/fGRO/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM///////9//////7/////////////gWZM/4FmTP///////////////////////////4Nn
+        Sf+BZkz/gWZM/4FmTP+BZkz/f2ZM/4NlTP98aEn/gWZM/4FmTP98ZE7/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz///////r//////v//////////////////////////////////////////
+        ////////gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP+BZkz/gWZM/3xkTv+BZkz/gWZM/31m
+        TP9/Zkz/gWZM/4FmTP+BZkz/gWZM/4FmTP////////////b//////////////4FmTP+BZkz/////////
+        //////////////////+CbEn/gWZM/4FmTP+BZkz/f2ZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////////////////////////////gWZM/4Fm
+        TP///////////////////////////3xkRv+BZkz/gWZM/4FmTP+BZ0n/gWdJ/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP9/Zkz/gWdJ/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////hmdO/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWRJ/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        //96YUf/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz///////////////////////////98Zk3/fGdM////
+        +///////////////////////gWZM/4FmTP////////7+///////69fL////5/4FmTP+BZkz/////////
+        /P////////7///z49/+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP///////////////////////////4Fm
+        TP+BZkz///////////////////////////+BZkz/gWZM/////////////////////////v//gWZM/4Fm
+        TP///////////////////////////4FmTP+BZkz/gWZM////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////+
+        ////////////////////////////////////////////////////////gWZM/4FmTP+BZkz/////////
+        //////////////////+DZkv/gWRP////////////////////////////fGVL/3hdQ///////////////
+        //////////v7/3djUv+BZkz///////////////////////////+BZkz/hWdK/4FmTP+BZkz/gWZM/4Fm
+        TP///////////////////////////4FmTP+BZkz///////////////////////////9/ZU3/h2hP////
+        //////////////////////n/gWZM/4FmTP///////////////////////////4FmTP+CZ03/gWZM/4Fm
+        TP+BZkz/fWVN/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP9/ZFD/gWZM//////+BZkz/gWRP/39l
+        Tf+BZkz/gWZM/4RmSf//////gWZM/4hmSP+BZkz/gWZM/4hmSP+BZkz//////35kTP98ZU//fGZN/4Bo
+        TP+BZkz/gWZM/4RoRv+DZ0n/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP9/Zkz//////4Jn
+        Tf+DZE3/hmdI/4ZkTP+BZkz/hGZJ//////+BZkz/hGZJ/4FmTP+BZkz/hGZJ/4FmTP//////gmVK/4Fn
+        Sf+DZ0j/hGhK/4FmTP+BZkz/gWZM/4FmTP///////////////////////////4FnSf+BZkz/////////
+        //////////////////+DaE7/gWVN////////////////////////////gWZM/4FmTP//////////////
+        /////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////////////////////////////hGZJ/4Fm
+        TP///////////////////////////4NnT/9/Zkz///////////////////////////+BZkz/gWZM////
+        ////////////////////////gWZM/4FmTP+BZkz/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+BZkz/gWZM/4FmTP//////////////
+        /////////////4FmTP+BZkz///////////////////////////+BZkz/gWZM////////////////////
+        ////////gWZM/3dpU////////////////////////////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        ////////////////////////gWZM/4FmTP////////////////////////77/4FmTP+BZkz/////////
+        //////////////////+GaU7/g2dP////////////////////////////gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/fWVN/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM//////+BZkz/gWZM/4FmTP+FaVH/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4Fm
+        TP97ZE7/gWZM/4FmTP+BZkz/gWZM//////+BZkz/gWZM/4FmTP9/Zkz/gWZM/4FmTP//////gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4BmSP+BZkz/gWZM//////+BZkz/gWZM/4Fm
+        TP+BZkz/gWZM/4FmTP97ZE7/gWZM/4FmTP+BZkz//////4FmTP+BZkz/gWZM/4FmTP+BZkz/gWZM////
+        //+BZkz/gWZM/4FmTP+BZkz/gWZM/4FmTP//////gWZM/4FmTP+BZkz/gWZM/4FmTP+BZkz//////4Fm
+        TP+BZkz/gWZM/4FmTP+BZkz/AAAAAMAAAADAAAAAwAAAMLhAADC4QAAwuEGEMLhAADC4AAAwuAAB8KAa
+        A/CIHAP8mBgCcJgIAnAAAAJwGAQCAAAEAAAA4Cx4AAAEAAAABAAAwYYCAAGEAiAzJJ5gF6SeAIGAAACB
+        gAAAAAAAAAABAAACAwAAQAEAgEABAEAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Статистика работы системы</value>
+  </data>
+  <data name="&gt;&gt;checkEditfrom.Name" xml:space="preserve">
+    <value>checkEditfrom</value>
+  </data>
+  <data name="&gt;&gt;checkEditfrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="colDevice.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colTime.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTime.Name" xml:space="preserve">
+    <value>colTime</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="gridView1.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="&gt;&gt;colObject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colObject.Name" xml:space="preserve">
+    <value>colObject</value>
+  </data>
+  <data name="gridView1.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="gridView1.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkEditbefore.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="gridView1.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="checkEditfrom.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="gridControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 622</value>
+  </data>
+  <data name="gridView1.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="btSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;colTraffic.Name" xml:space="preserve">
+    <value>colTraffic</value>
+  </data>
+  <data name="gridView1.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;colTraffic.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="checkEditfrom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 736</value>
+  </data>
+  <data name="btPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 659</value>
+  </data>
+  <data name="lvObjects.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btPrint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btPrint.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="checkEditfrom.Properties.Caption" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.Name" xml:space="preserve">
+    <value>radioGroup1</value>
+  </data>
+  <data name="gridView1.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="colResult.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>За период</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 14</value>
+  </data>
+  <data name="btSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 27</value>
+  </data>
+  <data name="btSearch.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 14</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Камеры</value>
+  </data>
+  <data name="btSearch.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;colDevice.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDevice.Name" xml:space="preserve">
+    <value>colDevice</value>
+  </data>
+  <data name="gridView1.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>249, 252, 255</value>
+  </data>
+  <data name="gridView1.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="gridView1.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;dtpBefore.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dtpBefore.Name" xml:space="preserve">
+    <value>dtpBefore</value>
+  </data>
+  <data name="gridView1.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="gridView1.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>59, 97, 156</value>
+  </data>
+  <data name="gridView1.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="colTime.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>
