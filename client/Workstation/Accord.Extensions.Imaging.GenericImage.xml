@@ -1,0 +1,1927 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accord.Extensions.Imaging.GenericImage</name>
+    </assembly>
+    <members>
+        <member name="T:Accord.Extensions.Imaging.Bgra">
+            <summary>
+            Represents Bgra color type of type <see cref="T:System.Double"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.IdxB">
+            <summary>
+            Gets the index of the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.IdxG">
+            <summary>
+            Gets the index of the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.IdxR">
+            <summary>
+            Gets the index of the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.IdxA">
+            <summary>
+            Gets the index of the alpha component.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgra.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Creates new Bgra color.
+            </summary>
+            <param name="b">Blue</param>
+            <param name="g">Green</param>
+            <param name="r">Red</param>
+            <param name="a">Alpha (transparency).</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra.A">
+            <summary>
+            Gets or sets the alpha component.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgra.ToString">
+            <summary>
+            Gets the string color representation.
+            </summary>
+            <returns>String color representation.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgra8">
+            <summary>
+            Represents Bgra color type of type <see cref="T:System.Byte"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra8.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra8.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra8.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra8.A">
+            <summary>
+            Gets or sets the alpha component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgra16">
+            <summary>
+            Represents Bgra color type of type <see cref="T:System.Int16"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra16.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra16.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra16.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra16.A">
+            <summary>
+            Gets or sets the alpha component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgra32">
+            <summary>
+            Represents Bgra color type of type <see cref="T:System.Int32"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32.A">
+            <summary>
+            Gets or sets the alpha component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgra32f">
+            <summary>
+            Represents Bgra color type of type <see cref="T:System.Single"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32f.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32f.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32f.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgra32f.A">
+            <summary>
+            Gets or sets the alpha component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ColorInfo">
+            <summary>
+            Gets color information from color type and depth type.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.GetInfo``1">
+            <summary>
+            Gets color info (depth is taken from color).
+            </summary>
+            <typeparam name="TColor">Member of <see cref="T:Accord.Extensions.IColor"/></typeparam>
+            <returns>Color info</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.GetInfo``2">
+            <summary>
+            Gets color info.
+            </summary>
+            <typeparam name="TColor">Member of <see cref="T:Accord.Extensions.IColor"/></typeparam>
+            <typeparam name="TDepth">Primitive type</typeparam>
+            <returns>Color info</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.GetInfo(System.Type)">
+            <summary>
+            Gets color info (depth is taken from color).
+            </summary>
+            <param name="colorType">Color type. (member of IColor)</param>
+            <returns>Color info</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.GetInfo(System.Type,System.Type)">
+            <summary>
+            Gets color info.
+            </summary>
+            <param name="colorType">Color type. (member of IColor)</param>
+            <param name="depthType">Primitive type.</param>
+            <returns>Color info</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.Equals(Accord.Extensions.Imaging.ColorInfo)">
+            <summary>
+            Determines whether the object is equal compared to the specified object. 
+            A default comparison is used. Please see overloads.
+            </summary>
+            <param name="other">Other object.</param>
+            <returns>True if two objects are equal, false otherwise.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.Equals(Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo.ComparableParts)">
+            <summary>
+            Compares two color infos.
+            </summary>
+            <param name="other">Other color info.</param>
+            <param name="cParts">Indicates what to compare. Default is: ComparableParts.Default. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorInfo.ToString">
+            <summary>
+            Get string representation.
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.ColorType">
+            <summary>
+            Color type (IColor).
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.ConversionCodename">
+            <summary>
+            Conversion codename. Not used. May be used for compatibility with EmguCV.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.IsGenericColorSpace">
+            <summary>
+            Returns if the color-space is generic (e.g. Color3, Color4...) or not.
+            Conversion from non-generic and generic color-spaces may be casted (does not require data conversion).
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.NumberOfChannels">
+            <summary>
+            Number of channels that color has.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.ChannelSize">
+            <summary>
+            Number of bytes per channel.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.ChannelType">
+            <summary>
+            Channel type. Only primitive types are supported.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.ColorInfo.Size">
+            <summary>
+            Color size. Number of channels multiplied by channel size.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ColorInfo.ComparableParts">
+            <summary>
+            Indicates what parts of color info should be compared.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.ColorInfo.ComparableParts.Depth">
+            <summary>
+            Checks color depth type
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.ColorInfo.ComparableParts.Castable">
+            <summary>
+            Checks if one color can be casted to other.
+            <para>
+            One of the color infos must be Generic (or the same) 
+            and have the same number of channels 
+            and color channels must be the same type.
+            </para>
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.ColorInfo.ComparableParts.Default">
+            <summary>
+            Checks color type and depth type (if it is true all other properties are equal as well)
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Gray">
+            <summary>
+            Represents gray color of type <see cref="T:System.Double"/>.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Gray.#ctor(System.Double)">
+            <summary>
+            Creates new gray color.
+            </summary>
+            <param name="intensity">Intensity.</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Gray.Intensity">
+            <summary>
+            Gets or sets the intensity.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Gray.op_Implicit(Accord.Extensions.Imaging.Gray)~System.Double">
+            <summary>
+            Converts gray structure to <see cref="T:System.Double"/> value.
+            </summary>
+            <param name="gray">Gray color.</param>
+            <returns>Intensity.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Gray.op_Implicit(System.Double)~Accord.Extensions.Imaging.Gray">
+            <summary>
+            Converts intensity of type <see cref="T:System.Double"/> to Gray color.
+            </summary>
+            <param name="intensity">Intensity.</param>
+            <returns>Gray color.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Gray.ToString">
+            <summary>
+            Gets the string color representation.
+            </summary>
+            <returns>String color representation.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Hsv">
+            <summary>
+            Represents Hsv color type of type <see cref="T:System.Double"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.IdxH">
+            <summary>
+            Gets the index of the hue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.IdxS">
+            <summary>
+            Gets the index of the saturation component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.IdxV">
+            <summary>
+            Gets the index of the value component.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Hsv.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates new Hsv color.
+            </summary>
+            <param name="hue">Hue</param>
+            <param name="saturation">Saturation</param>
+            <param name="value">Value.</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.H">
+            <summary>
+            Gets or sets hue.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.S">
+            <summary>
+            Gets or sets saturation.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv.V">
+            <summary>
+            Gets or sets value.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Hsv.ToString">
+            <summary>
+            Gets the string color representation.
+            </summary>
+            <returns>String color representation.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Hsv8">
+            <summary>
+            Represents Hsv color type of type <see cref="T:System.Byte"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv8.H">
+            <summary>
+            Gets or sets hue.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv8.S">
+            <summary>
+            Gets or sets saturation.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv8.V">
+            <summary>
+            Gets or sets value.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Hsv8.ConvertHsvToBgr(Accord.Extensions.Imaging.Hsv8*,Accord.Extensions.Imaging.Bgr8*)">
+            <summary>
+            Converts 8-bit Hsv color to the 8-bit Bgr color.
+            </summary>
+            <param name="hsv">Source color.</param>
+            <param name="bgr">Destination color.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Hsv8.ToBgr">
+            <summary>
+            Converts 8-bit Hsv color to the 8-bit Bgr color.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Hsv16">
+            <summary>
+            Represents Hsv color type of type <see cref="T:System.Int16"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv16.H">
+            <summary>
+            Gets or sets hue.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv16.S">
+            <summary>
+            Gets or sets saturation.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv16.V">
+            <summary>
+            Gets or sets value.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Hsv32">
+            <summary>
+            Represents Hsv color type of type <see cref="T:System.Int32"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32.H">
+            <summary>
+            Gets or sets hue.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32.S">
+            <summary>
+            Gets or sets saturation.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32.V">
+            <summary>
+            Gets or sets value.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Hsv32f">
+            <summary>
+            Represents Hsv color type of type <see cref="T:System.Single"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32f.H">
+            <summary>
+            Gets or sets hue.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32f.S">
+            <summary>
+            Gets or sets saturation.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Hsv32f.V">
+            <summary>
+            Gets or sets value.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ColorConversionsExtensions">
+            <summary>
+            Contains extension methods for image color conversion.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorConversionsExtensions.Convert``2(Accord.Extensions.Imaging.IImage,System.Boolean,System.Boolean)">
+            <summary>
+            Converts the image from source to destination color and depth.
+            Data may be shared if casting is used. To prevent that set <paramref name="copyAlways"/> to true.
+            </summary>
+            <typeparam name="DestColor">Destination color (IColor).</typeparam>
+            <typeparam name="DestType">Destination type (primitive type).</typeparam>
+            <param name="image">Image.</param>
+            <param name="copyAlways">Forces data copy even if a casting is enough.</param>
+            <param name="failIfCannotCast">If data copy is needed throws an exception.</param>
+            <returns>Converted image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ColorConversionsExtensions.Convert(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.ColorInfo,System.Boolean,System.Boolean)">
+            <summary>
+            Converts the image from source to destination color and depth.
+            Data may be shared if casting is used. To prevent that set <paramref name="copyAlways"/> to true.
+            </summary>
+            <param name="image">Image.</param>
+            <param name="destColor">Destination color info.</param>
+            <param name="copyAlways">Forces data copy even if a casting is enough.</param>
+            <param name="failIfCannotCast">If data copy is needed throws an exception.</param>
+            <returns>Converted image.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ArrayToImageExtensions">
+            <summary>
+            Contains extension methods for converting and casting an image to an array.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.GetChannels(System.Array)">
+            <summary>
+            Gets images (channels) for 2D/3D array. 
+            <remarks> Any array that is not 2D/3D and its element is not a primitive type is not supported.  (an exception is thrown)</remarks>
+            </summary>
+            <param name="arr">Input array.</param>
+            <returns>Channels. For 2D array output will consist of an single image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.SetValue``2(Accord.Extensions.Imaging.Image{``0,``1},``1[0:,0:,0:])">
+            <summary>
+            Sets pixels for an image from array. Array is converted to image channels first (<seealso cref="M:Accord.Extensions.Imaging.ArrayToImageExtensions.GetChannels(System.Array)"/>)
+            An image and an array must have the same dimensions.
+            </summary>
+            <param name="img">Destination image.</param>
+            <param name="arr">Array.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.SetValue``1(Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,``0},``0[0:,0:])">
+            <summary>
+            Sets pixels for an image from array. Array is converted to image channels first (one and only channel) (<seealso cref="M:Accord.Extensions.Imaging.ArrayToImageExtensions.GetChannels(System.Array)"/>)
+            An image and an array must have the same dimensions.
+            </summary>
+            <param name="img">Destination image.</param>
+            <param name="arr">Array.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.ToImage``2(``1[0:,0:,0:])">
+            <summary>
+            Converts an array to an image. Data is copied. 2D array also supports data sharing <seealso cref="M:Accord.Extensions.Imaging.ArrayToImageExtensions.AsImage``1(``0[0:,0:])"/>
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.ToImage``1(``0[0:,0:])">
+            <summary>
+            Converts array to image (data is copied). Array elements must be primitive types.
+            </summary>
+            <param name="arr">Input array</param>
+            <returns>Image</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.AsImage``1(``0[0:,0:])">
+            <summary>
+            Converts array to image (data is shared). Array elements must be primitive types.
+            </summary>
+            <param name="arr">Input array</param>
+            <returns>Image</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ArrayToImageExtensions.ToImage``1(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Converts array to image (data is copied). Array elements must be primitive types.
+            </summary>
+            <param name="arr">Input array</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <returns>Image</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ImageToArrayExtensions">
+            <summary>
+            Contains extension methods for converting an image to an array representation.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageToArrayExtensions.ToArray``2(Accord.Extensions.Imaging.Image{``0,``1})">
+            <summary>
+            Converts image to 3D array.
+            </summary>
+            <param name="img">Input image.</param>
+            <returns>3D array.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageToArrayExtensions.ToArray``1(Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,``0})">
+            <summary>
+            Converts gray image to 2D array.
+            </summary>
+            <param name="img">Input image.</param>
+            <returns>2D array.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ClearImageExtensions">
+            <summary>
+            Contains extension methods for image value initialization.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ClearImageExtensions.Clear(Accord.Extensions.Imaging.IImage)">
+            <summary>
+            Sets each image byte to zero (using kernel function memset).
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ConditionalCopy">
+            <summary>
+            Contains extension methods for copying image data by using masks.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ConditionalCopy.CopyTo``2(Accord.Extensions.Imaging.Image{``0,``1},Accord.Extensions.Imaging.Image{``0,``1},Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,System.Byte})">
+            <summary>
+            Copies values from source to destination image using mask. Destination values where mask == 0 are not erased!.
+            </summary>
+            <param name="img">Image.</param>
+            <param name="destImg">Destination image</param>
+            <param name="mask">Mask. Color locations that need to be copied must be set to !=0 in mask.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ConditionalCopy.CopyTo(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,System.Byte})">
+            <summary>
+            Copies values from source to destination image using mask. Destination values where mask == 0 are not erased!.
+            </summary>
+            <param name="img">Image.</param>
+            <param name="destImg">Destination image</param>
+            <param name="mask">Mask. Color locations that need to be copied must be set to !=0 in mask.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.PixelSetter">
+            <summary>
+            Contains extension methods for setting pixel values using other image as data source.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.PixelSetter.SetValue``2(Accord.Extensions.Imaging.Image{``0,``1},Accord.Extensions.Imaging.Image{``0,``1})">
+            <summary>
+            Sets image pixels.
+            </summary>
+            <param name="img">Destination image.</param>
+            <param name="srcDataImg">Source image.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.PixelSetter.SetValue(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage)">
+            <summary>
+            Sets image pixels.
+            </summary>
+            <param name="img">Destination image.</param>
+            <param name="srcDataImg">Source image.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.IplImage">
+            <summary>
+            Represents the OpenCV's IplImage structure which enables OpenCV / EmguCV interoperability.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IPL_DEPTH_SIGN">
+            <summary>
+            Constant for signed data types.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.StructureSize">
+            <summary>
+            Size of the structure
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ID">
+            <summary>
+            Version, always equal 0
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.NumberOfChannels">
+            <summary>
+            Number of channels. Most OpenCV functions support 1-4 channels.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.AlphaChannel">
+            <summary>
+            Ignored by OpenCV (set to zero).
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ChannelDepth">
+            <summary>
+            Channel depth in bits + the optional sign bit
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ColorModel">
+            <summary>
+            Ignored by OpenCV. The OpenCV function CvtColor requires the source and destination color spaces as parameters.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ChannelSeq">
+            <summary>
+            Ignored by OpenCV
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.DataOrder">
+            <summary>
+            Interleaved or separate (not used) channel order.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.Origin">
+            <summary>
+            Data origin: top-left or bottom-right (not used).
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.Align">
+            <summary>
+            Alignment of image rows (4 or 8). (Ignored by OpenCV)
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.Width">
+            <summary>
+            Image width
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.Height">
+            <summary>
+            Image height
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ROI">
+            <summary>
+            Region Of Interest (ROI). If not NULL, only this image region will be processed.
+            It is always null if generic image is represented as OpenCV image.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.MaskROI">
+            <summary>
+            Must be NULL in OpenCV.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ImageId">
+            <summary>
+            Must be NULL in OpenCV.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.TileInfo">
+            <summary>
+            Must be NULL in OpenCV.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ImageSize">
+            <summary>
+            Image data size in bytes.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ImageData">
+            <summary>
+            A pointer to the aligned image data.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.WidthStep">
+            <summary>
+            The size of an aligned image row, in bytes.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.BorderMode">
+            <summary>
+            Border completion mode, ignored by OpenCV.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.BorderConst">
+            <summary>
+            Border completion mode, ignored by OpenCV.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ImageDataOrigin">
+            <summary>
+            A pointer to the origin of the image data (not necessarily aligned). This is used for image deallocation.
+            During casting between generic image to OpenCV image it is set to null.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IplImage.FromPointer(System.IntPtr)">
+            <summary>
+            Converts a pointer to an IplImage structure.
+            </summary>
+            <param name="pointerToStructure"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.IplImage.IplChannelDepth">
+            <summary>
+            Depth constants for IplImage channels.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_1U">
+            <summary>
+            Unsigned 1bit
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_8U">
+            <summary>
+            Unsigned 8-bit integer
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_8S">
+            <summary>
+            Signed 8-bit integer
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_16U">
+            <summary>
+            Unsigned 16-bit integer
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_16S">
+            <summary>
+            Signed 16-bit integer
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_32S">
+            <summary>
+            Signed 32-bit integer.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_32F">
+            <summary>
+            Single-precision floating point
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.IplChannelDepth.IPL_DEPTH_64F">
+            <summary>
+            Double-precision floating point
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.IplImage.ChannelDataOrder">
+            <summary>
+            IplImage channel data order.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ChannelDataOrder.INTERLEAVED">
+            <summary>
+            Interleaved color channels.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.ChannelDataOrder.SEPARATE">
+            <summary>
+            Separate color channels. (CreateImage only creates images with interleaved channels.)
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.IplImage.DataOrigin">
+            <summary>
+            IplImage data origin.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.DataOrigin.TopLeft">
+            <summary>
+            Data origin is located in the top-left corner.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.IplImage.DataOrigin.BottomLeft">
+            <summary>
+            Data origin is located in the bottom-left corner (Windows bitmap).
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ImageOpenCVImageConversions">
+            <summary>
+            Contains methods for casting an generic image to an IplImage.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageOpenCVImageConversions.AsOpenCvImage(Accord.Extensions.Imaging.IImage)">
+            <summary>
+            Casts an image to OpeCV image (IplImage). No data copy is involved.
+            </summary>
+            <param name="image">Generic image.</param>
+            <returns>OpeCV image format.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageOpenCVImageConversions.AsImage(Accord.Extensions.Imaging.IplImage,System.Action{Accord.Extensions.Imaging.IplImage})">
+            <summary>
+            Casts iplImage in generic image representation.
+            </summary>
+            <param name="iplImage">IplImage structure.</param>
+            <param name="destructor">Destructor which is called when created generic image is disposed.</param>
+            <returns>Image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.BgrGrayConverters.ConvertBgrToGray_Byte(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage)">
+            <summary>
+            see: http://www.songho.ca/dsp/luminance/luminance.html
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.FlipDirection">
+            <summary>
+            Flip image direction. 
+            They can be used as bit flags.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.FlipDirection.None">
+            <summary>
+            No flipping.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.FlipDirection.Horizontal">
+            <summary>
+            Horizontal flipping.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.FlipDirection.Vertical">
+            <summary>
+            Vertical flipping
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.FlipDirection.All">
+            <summary>
+            All flipping (horizontal + vertical).
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ImageFlipping">
+            <summary>
+            Contains extension methods for image flipping.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageFlipping.FlipImage``2(Accord.Extensions.Imaging.Image{``0,``1},Accord.Extensions.Imaging.FlipDirection,System.Boolean)">
+            <summary>
+            Flips an input image horizontally / vertically / both directions / or none (data copy).
+            </summary>
+            <param name="img">Input image.</param>
+            <param name="flip">Flip direction.</param>
+            <param name="inPlace">Do it in place.</param>
+            <returns>Returns flipped image. If <paramref name="inPlace"/> was set to true the result can be omitted.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageFlipping.FlipImage(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.FlipDirection,System.Boolean)">
+            <summary>
+            Flips an input image horizontally / vertically / both directions / or none (data copy).
+            </summary>
+            <param name="img">Input image.</param>
+            <param name="flip">Flip direction.</param>
+            <param name="inPlace">Do it in place.</param>
+            <returns>Returns flipped image. If <paramref name="inPlace"/> was set to true the result can be omitted.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ImageFlipping.FlipImage(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.FlipDirection)">
+            <summary>
+            Flips an input image horizontally / vertically / both directions / or none (data copy).
+            </summary>
+            <param name="srcImg">Source image.</param>
+            <param name="dstImg">DEstination image. Must have the same size as source image.</param>
+            <param name="flip">Flip direction.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.HelperMethods">
+            <summary>
+            Contains image helper methods.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.HelperMethods.ColorToPointer``2(``0,System.IntPtr)">
+            <summary>
+            Converts color to unmanaged data of type <typeparamref name="TDepth"/>.
+            </summary>
+            <typeparam name="TColor">Color type.</typeparam>
+            <typeparam name="TDepth">Channel type.</typeparam>
+            <param name="color">Color</param>
+            <param name="data">Pointer to unmanaged data. Space must be allocated (number of color channels * sizeof(<typeparamref name="TDepth"/>)</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.HelperMethods.PointerToColor``2(System.IntPtr)">
+            <summary>
+            Converts unmanaged data to color representation.
+            </summary>
+            <typeparam name="TColor">Color type.</typeparam>
+            <typeparam name="TDepth">Channel type.</typeparam>
+            <param name="data">Pointer to unmanaged data of type: <typeparamref name="TDepth"/>.</param>
+            <returns>Color</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.HelperMethods.ColorToArray``2(``0)">
+            <summary>
+            Converts color to array of type <typeparamref name="TDepth"/>.
+            </summary>
+            <typeparam name="TColor">Color type.</typeparam>
+            <typeparam name="TDepth">Channel type.</typeparam>
+            <param name="color">Color</param>
+            <returns>Array whose length is the same as color's number of channels.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.HelperMethods.ArrayToColor``2(``1[])">
+            <summary>
+            Converts array to color representation. Array length must be the same as color's number of channels.
+            </summary>
+            <param name="arr">Input array</param>
+            <returns>Color</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.HelperMethods.CopyImage(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Copies unmanaged data.
+            </summary>
+            <param name="srcPtr">Source pointer.</param>
+            <param name="destPtr">Destination pointer.</param>
+            <param name="srcStride">Source stride.</param>
+            <param name="destStride">Destination stride.</param>
+            <param name="bytesPerRow">Amount of bytes per row to be copied (width for byte fields). (common: image width * color size)</param>
+            <param name="height">Field's height.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ChannelMerger.MergeChannels``2(Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,``1}[],Accord.Extensions.Imaging.Image{``0,``1},System.Int32[])">
+            <summary>
+            Merges channels and creates an image.
+            Number of channels must be lower or equal to the number of channels in image color.
+            </summary>
+            <param name="channels">Channels.</param>
+            <param name="srcImg">Source image.</param>
+            <param name="destChannelIndicies">Which channels to replace in the input image.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ChannelSplitter">
+            <summary>
+            Contains extension methods for image channel splitting.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ChannelSplitter.SplitChannels``2(Accord.Extensions.Imaging.Image{``0,``1},System.Int32[])">
+            <summary>
+            Splits the image into channels.
+            </summary>
+            <param name="img">Input image.</param>
+            <param name="channelIndicies">Which channels to split. If zero length then all channels will be processed.</param>
+            <returns>Channels.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.ColorDepthConverters">
+            <summary>
+            Registers color and depth converters.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverters.Initialize">
+            <summary>
+            Registers default color and depth conversions.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.BgrHsvConverters.ConvertBgrToHsv_Byte(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage)">
+            <summary>
+            see: http://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb
+            and: http://www.cs.rit.edu/~ncs/color/t_convert.html
+            range for  HSV is H:[0-180], S:[0-255], V:[0-255]
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.BgrHsvConverters.ConvertHsvToBgr_Byte(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.IImage)">
+            <summary>
+            see: http://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb
+            and: http://www.cbusforums.com/forums/showthread.php?t=8657
+            range for  HSV is H:[0-180], S:[0-255], V:[0-255]
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.IImage">
+            <summary>
+            Represents interface to the <see cref="T:Accord.Extensions.Imaging.Image"/> and <see cref="T:Accord.Extensions.Imaging.Image`2"/> class.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IImage.GetData(System.Int32,System.Int32)">
+            <summary>
+            Gets image data at specified location.
+            </summary>
+            <param name="row">Row index.</param>
+            <param name="col">Column index.</param>
+            <returns>Data pointer.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IImage.GetData(System.Int32)">
+            <summary>
+            Gets image data at specified location.
+            </summary>
+            <param name="row">Row index.</param>
+            <returns>Data pointer.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IImage.GetSubRect(Accord.Extensions.Rectangle)">
+            <summary>
+            Gets sub-image from specified area. Data is shared.
+            </summary>
+            <param name="rect">Area of an image for sub-image creation.</param>
+            <returns>Sub-image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IImage.Clone">
+            <summary>
+            Clones an image (data is copied).
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.IImage.CopyBlank">
+            <summary>
+            Copies all image information except image data.
+            Image data is blank-field.
+            </summary>
+            <returns>New cloned image with blank data.</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.ImageData">
+            <summary>
+            Gets unmanaged image data.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.Width">
+            <summary>
+            Gets image width.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.Height">
+            <summary>
+            Gets image height.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.Stride">
+            <summary>
+            Gets image stride.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.Size">
+            <summary>
+            Gets image size.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.ColorInfo">
+            <summary>
+            Gets image color info.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.IsAllocated">
+            <summary>
+            True if the data (internal buffer) is allocated, false otherwise (e.g. image cast).
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.IImage.Item(System.Int32)">
+            <summary>
+            Gets or sets image channel.
+            Channel size must be the same as image size.
+            </summary>
+            <param name="channelIdx">Index of an channel to get or replace.</param>
+            <returns>Image channel.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.ValueSetter">
+            <summary>
+            Contains extensions for setting image color pixel values.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.ValueSetter.SetValue``2(Accord.Extensions.Imaging.Image{``0,``1},``0)">
+            <summary>
+            Sets value for an input image.
+            </summary>
+            <param name="img">Input image.</param>
+            <param name="value">The color to set.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.ConvertDataFunc">
+            <summary>
+            Function delegate for image data conversion.
+            </summary>
+            <param name="srcImg">Source image.</param>
+            <param name="destImg">Destination image.</param>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.CreateImageFunc">
+            <summary>
+            Function delegate for image creation (by casting source image, returning source or crating an empty image).
+            </summary>
+            <param name="srcImg">Source image.</param>
+            <param name="destColor">Destination image color info.</param>
+            <returns>Destination image.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.ColorDepthConverter">
+            <summary>
+            Represents the main class for color and conversion.
+            It uses search methods to find appropriate conversion paths.
+            <para>Methods can be used as extensions.</para>
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Converters.ColorDepthConverter.GENERIC_COLOR_CAST_OFFSET">
+            <summary>
+            To prevent paths like (Bgr, byte) => (Color3, byte) => (Hsv, byte), generic color conversions are weighted by arbitrary large weight.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Initialize">
+            <summary>
+            Builds a graph for added conversions (built-in conversion are added by default) and determines conversion paths by using Floyd-Warshall algorithm.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Add(Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo})">
+            <summary>
+            Adds conversion info (edge) to the graph.
+            </summary>
+            <param name="conversionData">Conversion data.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Add(Accord.Extensions.IColor)">
+            <summary>
+            Registers generic color.
+            </summary>
+            <param name="genericColor">Generic color.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Add(Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{System.Type})">
+            <summary>
+            Adds depth conversion info (edge) to channel conversion graph.
+            </summary>
+            <param name="depthConversionData">Depth conversion data.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Remove(System.Func{Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo,System.Collections.Generic.List{Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo}},System.Boolean})">
+            <summary>
+            Removes the paths forbidden by the specified rules.
+            </summary>
+            <param name="forbidRule"></param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.GetPath(Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo)">
+            <summary>
+            Gets the conversion path.
+            <para>If the conversion is not allowed or does not exist an empty list is returned.</para>
+            </summary>
+            <param name="src">Source color.</param>
+            <param name="dst">Destination color.</param>
+            <returns>Conversion path.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.GetPath(Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo[])">
+            <summary>
+            Finds the most inexpensive conversion path.
+            </summary>
+            <param name="srcInfo">Source color info.</param>
+            <param name="preferedDestFormats">Allowed destination formats.</param>
+            <returns>The most inexpensive path.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.CopiesData(System.Collections.Generic.IList{Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo}})">
+            <summary>
+            Returns if an conversion path requires data copy or not.
+            </summary>
+            <param name="conversionPath">Conversion path</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.PathCost(System.Collections.Generic.IList{Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo}})">
+            <summary>
+            Gets the cost of the specified conversion path.
+            </summary>
+            <param name="conversionPath">Conversion path.</param>
+            <returns>The cost of the path.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Convert(Accord.Extensions.Imaging.IImage,Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo})">
+            <summary>
+            Converts an image by using specified conversion path.
+            </summary>
+            <param name="img">Image to convert.</param>
+            <param name="conversionData">Conversion path.</param>
+            <returns>Converted image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.Convert(Accord.Extensions.Imaging.IImage,System.Collections.Generic.IList{Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{Accord.Extensions.Imaging.ColorInfo}},System.Boolean)">
+            <summary>
+            Converts and image using conversion path.
+            </summary>
+            <param name="srcImage">Input image.</param>
+            <param name="conversionPath">Conversion path. If zero-length source is returned. If null, null value is returned.</param>
+            <param name="copyAlways">Forces to copy data even if the casting is enough</param>
+            <returns>Converted image. (may share data with input image if casting is used)</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost">
+            <summary>
+            Conversion costs.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost.ReturnSource">
+            <summary>
+            Source returning cost.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost.Cast">
+            <summary>
+            Source casting cost.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost.DataConvert">
+            <summary>
+            Data conversion cost.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost.NotPossible">
+            <summary>
+            No possible conversion (max. cost).
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1">
+            <summary>
+            Contains information about the conversion for source to destination image.
+            represents an edge in a built graph.
+            </summary>
+            <typeparam name="T">ColorInfo for color conversion or Type for depth conversion.</typeparam>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.#ctor(`0,`0,Accord.Extensions.Imaging.Converters.ConvertDataFunc,System.Boolean,Accord.Extensions.Imaging.Converters.CreateImageFunc,Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionCost)">
+            <summary>
+            Creates new conversion data object (an edge in a graph).
+            </summary>
+            <param name="source">Source vertex.</param>
+            <param name="destination">Destination vertex.</param>
+            <param name="convertFunc">Data conversion function.</param>
+            <param name="forceSequential">Force conversion to execute sequentially.</param>
+            <param name="createFunc">Destination image creation function.</param>
+            <param name="cost">Conversion cost.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.AsReturnSource(Accord.Extensions.Imaging.ColorInfo)">
+            <summary>
+            Returns conversion data when source image has to be returned.
+            </summary>
+            <param name="source">Source's image color info.</param>
+            <returns>Conversion info.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.AsCast(Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo)">
+            <summary>
+            Returns conversion data when source image has to be casted.
+            </summary>
+            <param name="source">Source's image color info.</param>
+            <param name="destination">Destination image color info.</param>
+            <returns>Conversion info.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.AsConvertData(Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.ColorInfo,Accord.Extensions.Imaging.Converters.ConvertDataFunc,System.Boolean)">
+            <summary>
+            Returns conversion data when source data has to be converted.
+            </summary>
+            <param name="source">Source's image color info.</param>
+            <param name="destination">Destination image color info.</param>
+            <param name="convertFunc">Data conversion function.</param>
+            <param name="forceSequential">Force conversion to execute sequentially.</param>
+            <returns>Conversion info.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.AsConvertDepth(System.Type,Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData{System.Type})">
+            <summary>
+            Returns conversion data for color conversion with specified channel depth conversion data.
+            </summary>
+            <param name="colorType">Destination color type.</param>
+            <param name="depthConversionData">Channel type conversion data.</param>
+            <returns>Conversion info.</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.CreateFunc">
+            <summary>
+            Gets or sets destination image creation function.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.ConvertFunc">
+            <summary>
+            Gets or sets data conversion function.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.ForceSequential">
+            <summary>
+            Gets or sets whether data conversion has to be executed sequentially.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.Cost">
+            <summary>
+            Gets or sets conversion cost (edge cost).
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Converters.ColorDepthConverter.ConversionData`1.CopiesData">
+            <summary>
+            Returns true is the specified conversion copies data, false otherwise.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Image`2">
+            <summary>
+            Implements generic image type and provides a basic data manipulation. Other functions are built as extensions making the class light-weight and portable.
+            <para>Other extensions and satellite assemblies enables multiple interoperability with other libraries such as AForge.NET, OpenCV, EmguCV.</para>
+            </summary>
+            <typeparam name="TColor">Color from type <see cref="T:Accord.Extensions.IColor"/>.</typeparam>
+            <typeparam name="TDepth">Primitive type.</typeparam>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Image">
+            <summary>
+            Serves as a base class for generic image style providing some basic functions.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.#ctor">
+            <summary>
+            Image constructor used during de-serialization process.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Create(Accord.Extensions.Imaging.ColorInfo,System.Int32,System.Int32)">
+            <summary>
+            Creates an generic image.
+            </summary>
+            <param name="colorInfo">Color info.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <returns>New generic image (interface).</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Create(Accord.Extensions.Imaging.ColorInfo,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Object,System.Action{System.Object})">
+            <summary>
+            Creates an generic image from unmanaged data. Data is shared.
+            </summary>
+            <param name="colorInfo">Color info.</param>
+            <param name="imageData">Unmanaged data pointer.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="stride">Image stride.</param>
+            <param name="parentReference">To prevent object from deallocating use this parameter.</param>
+            <param name="parentDestructor">If a parent needs to be destroyed or release use this function. (e.g. unpin object - GCHandle)</param>
+            <returns>Generic image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Initialize(Accord.Extensions.Imaging.Image,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes generic image (allocates data).
+            </summary>
+            <param name="im">Generic image.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="strideAllignment">Stride alignment. Usual practice is that every image row ends with address aligned with 4.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Initialize(Accord.Extensions.Imaging.Image,System.Int32,System.Int32,System.Int32,Accord.Extensions.PinnedArray{System.Byte})">
+            <summary>
+            Initializes generic image (attaches to existing unmanaged data).
+            </summary>
+            <param name="im">Generic image.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="stride">Image stride.</param>
+            <param name="buffer">Image buffer.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Initialize(Accord.Extensions.Imaging.Image,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Object,System.Action{System.Object})">
+            <summary>
+            Initializes generic image (attaches to existing unmanaged data).
+            </summary>
+            <param name="im">Generic image.</param>
+            <param name="imageData">Image data pointer.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="stride">Image stride.</param>
+            <param name="parentReference">To prevent object from deallocating use this parameter.</param>
+            <param name="parentDestructor">If a parent needs to be destroyed or release use this function. (e.g. unpin object - GCHandle)</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.CalculateStride(Accord.Extensions.Imaging.ColorInfo,System.Int32,System.Int32)">
+            <summary>
+            Calculates image stride for the specified parameters.
+            </summary>
+            <param name="colorInfo">Color info.</param>
+            <param name="width">Image width.</param>
+            <param name="allignment">Data alignment.</param>
+            <returns>Image stride.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Dispose">
+            <summary>
+            Disposes generic image. 
+            In case if data is allocated it is released.
+            If data is shared parent reference (if exists) and parent handle (if exist) is released.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Finalize">
+            <summary>
+            Disposes the image.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.GetData(System.Int32,System.Int32)">
+            <summary>
+            Gets image data at specified location.
+            </summary>
+            <param name="row">Row index.</param>
+            <param name="col">Column index.</param>
+            <returns>Data pointer.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.GetData(System.Int32)">
+            <summary>
+            Gets image data at specified location.
+            </summary>
+            <param name="row">Row index.</param>
+            <returns>Data pointer.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Accord#Extensions#Imaging#IImage#GetSubRect(Accord.Extensions.Rectangle)">
+            <summary>
+            Gets sub-image from specified area. Data is shared.
+            </summary>
+            <param name="rect">Area of an image for sub-image creation.</param>
+            <returns>Sub-image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Accord#Extensions#Imaging#IImage#Clone">
+            <summary>
+            Clones an image (data is copied).
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Accord#Extensions#Imaging#IImage#CopyBlank">
+            <summary>
+            Copies all image information except image data.
+            Image data is blank-field.
+            </summary>
+            <returns>New cloned image with blank data.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Equals(Accord.Extensions.Imaging.Image)">
+            <summary>
+            Compares this image to another image. Only pointer location and image size are compared.
+            There is no data compassion.
+            </summary>
+            <param name="other">Other image.</param>
+            <returns>Whether two images are equal or not.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.Equals(System.Object)">
+            <summary>
+            Compares this image to another object. Internally the function overload is called.
+            </summary>
+            <param name="obj">Other.</param>
+            <returns>Is the image equal to an object or not.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image.GetHashCode">
+            <summary>
+            Image's hash code. Pointer address is used as hash code.
+            </summary>
+            <returns>Image's hash code.</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.ImageData">
+            <summary>
+            Gets unmanaged image data.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.Width">
+            <summary>
+            Gets image width.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.Height">
+            <summary>
+            Gets image height.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.Stride">
+            <summary>
+            Gets image stride - number of bytes per image row.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.Size">
+            <summary>
+            Gets image size.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.ColorInfo">
+            <summary>
+            Gets image color info.
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.IsAllocated">
+            <summary>
+            True if the data (internal buffer) is allocated, false otherwise (e.g. image cast).
+            </summary>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image.Accord#Extensions#Imaging#IImage#Item(System.Int32)">
+            <summary>
+            Gets or sets image channel.
+            Channel size must be the same as image size.
+            </summary>
+            <param name="channelIdx">Index of an channel to get or replace.</param>
+            <returns>Image channel.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#cctor">
+            <summary>
+            Initializes (registers) color converters.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor">
+            <summary>
+            Do not remove! Needed for dynamic image creation via cached expressions.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor(Accord.Extensions.Imaging.Image{Accord.Extensions.Imaging.Gray,`1}[])">
+            <summary>
+            Construct an image from channels.
+            </summary>
+            <param name="channels">Channels. The number of channels must be the same as number of channels specified by this color type.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor(Accord.Extensions.Size,System.Int32)">
+            <summary>
+            Constructs an image. (allocation)
+            </summary>
+            <param name="size">Image size.</param>
+            <param name="strideAllignment">Stride alignment. Usual practice is that every image row ends with address aligned with 4.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructs an image. (allocation)
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="strideAllignment">Stride alignment. Usual practice is that every image row ends with address aligned with 4.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor(System.Int32,System.Int32,`0)">
+            <summary>
+            Constructs an image and sets pixel value. (allocation)
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="value">User selected image color.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.#ctor(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Object,System.Action{System.Object})">
+            <summary>
+            Constructs an image from unmanaged data. Data is shared.
+            </summary>
+            <param name="imageData">Pointer to unmanaged data.</param>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="stride">Image stride.</param>
+            <param name="parentReference">To prevent object from deallocating use this parameter.</param>
+            <param name="parentDestructor">If a parent needs to be destroyed or release use this function. (e.g. unpin object - GCHandle)</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.GetSubRect(Accord.Extensions.Rectangle)">
+            <summary>
+            Gets sub-image from specified area. Data is shared.
+            </summary>
+            <param name="rect">Area of an image for sub-image creation.</param>
+            <returns>Sub-image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.Clone">
+            <summary>
+            Clones an image (data is copied).
+            </summary>
+            <returns>New cloned image.</returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Image`2.CopyBlank">
+            <summary>
+            Copies all image information except image data.
+            Image data is blank-field.
+            </summary>
+            <returns>New cloned image with blank data.</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image`2.Item(System.Int32)">
+            <summary>
+            Gets or sets image channel.
+            Channel size must be the same as image size.
+            </summary>
+            <param name="channelIdx">Index of an channel to get or replace.</param>
+            <returns>Image channel.</returns>
+        </member>
+        <member name="P:Accord.Extensions.Imaging.Image`2.Item(System.Int32,System.Int32)">
+            <summary>
+            Gets or sets image color at an location.
+            If you need fast access to an image pixel use unmanaged approach.
+            </summary>
+            <param name="row">Row index.</param>
+            <param name="col">Column index.</param>
+            <returns>Color</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgr">
+            <summary>
+            Represents Bgr color type of type <see cref="T:System.Double"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.IdxB">
+            <summary>
+            Gets the index of the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.IdxG">
+            <summary>
+            Gets the index of the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.IdxR">
+            <summary>
+            Gets the index of the red component.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates new Bgr color.
+            </summary>
+            <param name="b">Blue</param>
+            <param name="g">Green</param>
+            <param name="r">Red</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr.op_Implicit(Accord.Extensions.Imaging.Bgr8)~Accord.Extensions.Imaging.Bgr">
+            <summary>
+            Cast 8-bit channels to channels of type <see cref="T:System.Double"/>.
+            </summary>
+            <param name="color">8-bit color</param>
+            <returns></returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr.op_Implicit(Accord.Extensions.Imaging.Bgr32)~Accord.Extensions.Imaging.Bgr">
+            <summary>
+            Cast 32-bit channels to channels of type <see cref="T:System.Double"/>.
+            </summary>
+            <param name="color">8-bit color</param>
+            <returns></returns>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr.ToString">
+            <summary>
+            Gets the string color representation.
+            </summary>
+            <returns>String color representation.</returns>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgr8">
+            <summary>
+            Represents Bgr color type of type <see cref="T:System.Byte"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.Red">
+            <summary>
+            Gets the 8-bit red color.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.Blue">
+            <summary>
+            Gets the 8-bit blue color.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.Green">
+            <summary>
+            Gets the 8-bit green color.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.Black">
+            <summary>
+            Gets the 8-bit black color.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr8.White">
+            <summary>
+            Gets the 8-bit white color.
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr8.ConvertBgrToHsv(Accord.Extensions.Imaging.Bgr8*,Accord.Extensions.Imaging.Hsv8*)">
+            <summary>
+            Converts 8-bit Bgr to 8-bit Hsv color. Value range for 8-bit HSv color is  [0..180].
+            </summary>
+            <param name="bgr">Source color.</param>
+            <param name="hsv">Destination color.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr8.ToHsv">
+            <summary>
+            Converts 8-bit Bgr to 8-bit Hsv color. Value range for 8-bit HSv color is  [0..180].
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr8.ConvertBgrToGray(Accord.Extensions.Imaging.Bgr8*,System.Byte*)">
+            <summary>
+            Converts 8-bit Bgr to 8-bit gray color. 
+            </summary>
+            <param name="bgr">Source color.</param>
+            <param name="gray">Destination color.</param>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Bgr8.ToGray">
+            <summary>
+            Converts 8-bit Bgr to 8-bit gray color. 
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgr16">
+            <summary>
+            Represents Bgr color type of type <see cref="T:System.Int16"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr16.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr16.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr16.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgr32">
+            <summary>
+            Represents Bgr color type of type <see cref="T:System.Int32"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Bgr32f">
+            <summary>
+            Represents Bgr color type of type <see cref="T:System.Single"/>.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32f.B">
+            <summary>
+            Gets or sets the blue component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32f.G">
+            <summary>
+            Gets or sets the green component.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Bgr32f.R">
+            <summary>
+            Gets or sets the red component.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Color2">
+            <summary>
+            Generic color space (2 channels).
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Color2.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates new 2-channel generic color.
+            </summary>
+            <param name="val0">First channel.</param>
+            <param name="val1">Second channel.</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color2.Val0">
+            <summary>
+            Gets or sets first channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color2.Val1">
+            <summary>
+            Gets or sets second channel value.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Color3">
+            <summary>
+            Generic color space (3 channels).
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Color3.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates new 3-channel generic color.
+            </summary>
+            <param name="val0">First channel.</param>
+            <param name="val1">Second channel.</param>
+            <param name="val2">Third channel.</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color3.Val0">
+            <summary>
+            Gets or sets first channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color3.Val1">
+            <summary>
+            Gets or sets second channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color3.Val2">
+            <summary>
+            Gets or sets third channel value.
+            </summary>
+        </member>
+        <member name="T:Accord.Extensions.Imaging.Color4">
+            <summary>
+            Generic color space (4 channels).
+            </summary>
+        </member>
+        <member name="M:Accord.Extensions.Imaging.Color4.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Creates new 4-channel generic color.
+            </summary>
+            <param name="val0">First channel.</param>
+            <param name="val1">Second channel.</param>
+            <param name="val2">Third channel.</param>
+            <param name="val3">Fourth channel.</param>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color4.Val0">
+            <summary>
+            Gets or sets first channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color4.Val1">
+            <summary>
+            Gets or sets second channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color4.Val2">
+            <summary>
+            Gets or sets third channel value.
+            </summary>
+        </member>
+        <member name="F:Accord.Extensions.Imaging.Color4.Val3">
+            <summary>
+            Gets or sets fourth channel value.
+            </summary>
+        </member>
+        <member name="M:MoreLinq.MoreEnumerable.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+            <summary>
+            Immediately executes the given action on each element in the source sequence.
+            </summary>
+            <typeparam name="T">The type of the elements in the sequence</typeparam>
+            <param name="source">The sequence of elements</param>
+            <param name="action">The action to execute on each element</param>
+        </member>
+        <member name="M:MoreLinq.MoreEnumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+            <summary>
+            Returns the minimal element of the given sequence, based on
+            the given projection.
+            </summary>
+            <remarks>
+            If more than one element has the minimal projected value, the first
+            one encountered will be returned. This overload uses the default comparer
+            for the projected type. This operator uses immediate execution, but
+            only buffers a single result (the current minimal element).
+            </remarks>
+            <typeparam name="TSource">Type of the source sequence</typeparam>
+            <typeparam name="TKey">Type of the projected element</typeparam>
+            <param name="source">Source sequence</param>
+            <param name="selector">Selector to use to pick the results to compare</param>
+            <returns>The minimal element, according to the projection.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source"/> or <paramref name="selector"/> is null</exception>
+            <exception cref="T:System.InvalidOperationException"><paramref name="source"/> is empty</exception>
+        </member>
+        <member name="M:MoreLinq.MoreEnumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+            <summary>
+            Returns the minimal element of the given sequence, based on
+            the given projection and the specified comparer for projected values.
+            </summary>
+            <remarks>
+            If more than one element has the minimal projected value, the first
+            one encountered will be returned. This overload uses the default comparer
+            for the projected type. This operator uses immediate execution, but
+            only buffers a single result (the current minimal element).
+            </remarks>
+            <typeparam name="TSource">Type of the source sequence</typeparam>
+            <typeparam name="TKey">Type of the projected element</typeparam>
+            <param name="source">Source sequence</param>
+            <param name="selector">Selector to use to pick the results to compare</param>
+            <param name="comparer">Comparer to use to compare projected values</param>
+            <returns>The minimal element, according to the projection.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source"/>, <paramref name="selector"/> 
+            or <paramref name="comparer"/> is null</exception>
+            <exception cref="T:System.InvalidOperationException"><paramref name="source"/> is empty</exception>
+        </member>
+        <member name="M:MoreLinq.MoreEnumerable.Pairwise``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``1})">
+            <summary>
+            Returns a sequence resulting from applying a function to each 
+            element in the source sequence and its 
+            predecessor, with the exception of the first element which is 
+            only returned as the predecessor of the second element.
+            </summary>
+            <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+            <typeparam name="TResult">The type of the element of the returned sequence.</typeparam>
+            <param name="source">The source sequence.</param>
+            <param name="resultSelector">A transform function to apply to 
+            each pair of sequence.</param>
+            <returns>
+            Returns the resulting sequence.
+            </returns>
+            <remarks>
+            This operator uses deferred execution and streams its results.
+            </remarks>
+            <example>
+            <code>
+            int[] numbers = { 123, 456, 789 };
+            IEnumerable&lt;int&gt; result = numbers.Pairwise(5, (a, b) => a + b);
+            </code>
+            The <c>result</c> variable, when iterated over, will yield 
+            579 and 1245, in turn.
+            </example>
+        </member>
+    </members>
+</doc>

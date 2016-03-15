@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TS.Sdk.StaticFace.NetBinding</name>
+    </assembly>
+    <members>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Engine">
+            <summary>
+                Класс, реализующий функции api FaceRecognition
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.IEngine">
+            <summary>
+            Интерфейс ядра статического распознавания
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetLicenseInfo">
+            <summary>
+            Возвращает лицензионные ограничения
+            </summary>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetVersion">
+            <summary>
+            Возвращает информацию о версии
+            </summary>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.DetectMaxFace(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.DetectionConfiguration)">
+            <summary>
+            Обнаруживает максимальное по площади лицо и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="config">Конфигурация</param>
+            <returns>область детектированного лица</returns> 
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.DetectAllFaces(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.DetectionConfiguration)">
+            <summary>
+            Обнаруживает все лица на изображении и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="config">Конфигурация</param>
+            <returns>детектированные лица</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.CheckQuality(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Производит оценку качества изображения в выбранной области и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>параметры качества</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.ExtractTemplate(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Строит биометрический шаблон и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>биометрический шаблон</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetTemplateLength">
+            <summary>
+            Возвращает размер шаблона
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetFaceFeaturesNames">
+            <summary>
+            Возвращает список имен всех извлекаемых признаков
+            </summary>
+            <returns>Список имен признаков</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.ExtractFaceFeatures(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Извлекает особые точки на лице
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>массив особых точек</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.Verify(System.Byte[],System.Byte[])">
+            <summary>
+            Сравнивает два шаблона и возвращает код ошибки
+            </summary>
+            <param name="t1">Шаблон для сравнения</param>
+            <param name="t2">Шаблон для сравнения</param>
+            <returns>Мера схожести двух шаблонов</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.UploadTemplates(System.String,TS.Sdk.StaticFace.Model.Template[])">
+            <summary>
+            Загружает массив шаблонов в память для последующей идентификации. Если поисковая выборка с заданным именем не существует, она создается
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="templates">Массив шаблонов для загрузки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.UploadTemplate(System.String,TS.Sdk.StaticFace.Model.Template)">
+            <summary>
+            Загружает шаблон в память для последующей идентификации. Если поисковая выборка с заданным именем не существует, она создается
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="template">Шаблон для загрузки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetTemplatesCount(System.String)">
+            <summary>
+            Возвращает количество загруженных шаблонов в поисковой выборке
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <returns>Количество загруженных шаблонов</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.AddSearchSet(System.String)">
+            <summary>
+            Создает новую поисковую выборку
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.GetSearchSetNames">
+            <summary>
+            Возвращает имена поисковых выборок
+            </summary>
+            <returns>массив имен поисковых выборок</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.RemoveTemplate(System.String,System.Guid)">
+            <summary>
+            Удаляет шаблон из поисковой выборки
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="templateId">Идентификатор шаблона</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.RemoveTemplate(System.String,TS.Sdk.StaticFace.Model.Template)">
+            <summary>
+            Удаляет шаблон из поисковой выборки
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="template">Удаляемый шаблон</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.RemoveTemplates(System.String,System.DateTime)">
+            <summary>
+            Удаляет все шаблоны из поисковой выборки, дата регистрации которых больше заданной
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="threshold">Дата регистрации шаблонов, шаблоны старше которой удаляются</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.ClearTemplates(System.String)">
+            <summary>
+            Очищает заданную поисковую выборку и удаляет ее из памяти
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.Identify(System.Byte[],System.String,TS.Sdk.StaticFace.Model.IdentificationConfiguration)">
+            <summary>
+            Идентифицирует заданный шаблон и возвращает рекомендательный список
+            </summary>
+            <param name="template">Шаблон для идентификации</param>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="configuration">Конфигурация</param>
+            <returns>Рекомендательный список, отсортированный по мере убывания меры схожести</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.IEngine.Identify(System.Byte[],TS.Sdk.StaticFace.Model.Template[],TS.Sdk.StaticFace.Model.IdentificationConfiguration)">
+            <summary>
+            Идентифицирует заданный шаблон и возвращает рекомендательный список
+            </summary>
+            <param name="template">Шаблон для идентификации</param>
+            <param name="templates">Массив шаблонов для сравнения</param>
+            <param name="configuration">Конфигурация</param>
+            <returns>Рекомендательный список, отсортированный по мере убывания меры схожести</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="E:TS.Sdk.StaticFace.NetBinding.IEngine.NewError">
+            <summary>
+            Событие, генерируемое при возникновении ошибки
+            Может использоваться для перехвата ошибок SDK без исключений
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.IEngine.IsInitialized">
+            <summary>
+            Флаг, указывающий, что ядро было инициализировано
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.Dispose">
+            <summary>
+            Выполняет определяемые приложением задачи, связанные с высвобождением или сбросом неуправляемых ресурсов.
+            </summary>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.Initialize(System.UInt32)">
+            <summary>
+                Инициализирует ядро распознавания и возвращает код ошибки
+            </summary>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.ReleaseResources">
+            <summary>
+            Освобождает ресурсы, выделенные в неуправляемой памяти объектам распознавания
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetLicenseInfo">
+            <summary>
+                Возвращает лицензионные ограничения
+            </summary>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetVersion">
+            <summary>
+                Возвращает информацию о версии
+            </summary>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.DetectMaxFace(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.DetectionConfiguration)">
+            <summary>
+                Обнаруживает максимальное по площади лицо и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="configuration">Конфигурация детектирования</param>
+            <returns>область детектированного лица</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.DetectAllFaces(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.DetectionConfiguration)">
+            <summary>
+            Обнаруживает все лица на изображении и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="configuration">конфигурация детектирования</param>
+            <returns>детектированные лица</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.CheckQuality(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+                Производит оценку качества изображения в выбранной области и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>параметры качества</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.ExtractTemplate(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+                Строит биометрический шаблон и возвращает код ошибки
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>биометрический шаблон</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetTemplateLength">
+            <summary>
+            Возвращает размер шаблона
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetFaceFeaturesNames">
+            <summary>
+                Возвращает список имен всех извлекаемых признаков
+            </summary>
+            <returns>Список имен признаков</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.ExtractFaceFeatures(TS.Sdk.StaticFace.Model.Image,TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Извлекает особые точки на лице
+            </summary>
+            <param name="image">данные изображения</param>
+            <param name="face">область детектированного лица</param>
+            <returns>массив особых точек</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.Verify(System.Byte[],System.Byte[])">
+            <summary>
+            Сравнивает два шаблона и возвращает код ошибки
+            </summary>
+            <param name="t1">Шаблон для сравнения</param>
+            <param name="t2">Шаблон для сравнения</param>
+            <returns>Мера схожести двух шаблонов</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.UploadTemplates(System.String,TS.Sdk.StaticFace.Model.Template[])">
+            <summary>
+            Загружает массив шаблонов в память для последующей идентификации. Если поисковая выборка с заданным именем не
+            существует, она создается
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="templates">Массив шаблонов для загрузки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.UploadTemplate(System.String,TS.Sdk.StaticFace.Model.Template)">
+            <summary>
+                Загружает шаблон в память для последующей идентификации. Если поисковая выборка с заданным именем не существует,
+                она создается
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="template">Шаблон для загрузки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetTemplatesCount(System.String)">
+            <summary>
+            Возвращает количество загруженных шаблонов в поисковой выборке
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <returns>Количество загруженных шаблонов</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.GetSearchSetNames">
+            <summary>
+            Возвращает имена поисковых выборок
+            </summary>
+            <returns>массив имен поисковых выборок</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.RemoveTemplate(System.String,TS.Sdk.StaticFace.Model.Template)">
+            <summary>
+            Удаляет шаблон из поисковой выборки
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="template">Удаляемый шаблон</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.RemoveTemplate(System.String,System.Guid)">
+            <summary>
+            Удаляет шаблон из поисковой выборки
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="templateId">Идентификатор удаляемого шаблона</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.RemoveTemplates(System.String,System.DateTime)">
+            <summary>
+            Удаляет все шаблоны из поисковой выборки, дата регистрации которых больше заданной
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="threshold">Дата регистрации шаблонов, шаблоны старше которой удаляются</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.ClearTemplates(System.String)">
+            <summary>
+            Очищает заданную поисковую выборку и удаляет ее из памяти
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Engine.Identify(System.Byte[],System.String,TS.Sdk.StaticFace.Model.IdentificationConfiguration)">
+            <summary>
+            Идентифицирует заданный шаблон и возвращает рекомендательный список
+            </summary>
+            <param name="template">Шаблон для идентификации</param>
+            <param name="setName"> Имя поисковой выборки. Если имя не задано, то строится общий рекомендательный список по всем загруженным выборкам (в этом случае возможны дубли)
+            </param>
+            <param name="configuration">Конфигурация идентификации</param>
+            <returns>Рекомендательный список, отсортированный по мере убывания меры схожести</returns>
+            <exception cref="T:TS.Core.Model.SdkException">Исключение, выбрасываемое, если возникла ошибка при вызове функций SDK</exception>
+        </member>
+        <member name="E:TS.Sdk.StaticFace.NetBinding.Engine.NewError">
+            <summary>
+            Событие, генерируемое при возникновении ошибки
+            Может использоваться для перехвата ошибок SDK без исключений
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Engine.IsInitialized">
+            <summary>
+                Флаг, указывающий, что ядро было инициализировано
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.ErrorCallbackEventHandler">
+            <summary>
+            Описывает функцию обработки ошибок
+            </summary>
+            <param name="ex">Исключение генерируемое SDK</param>
+            <param name="functionName">Имя функции на который было определено исключение</param>
+            <param name="errorDate">Время </param>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetStringsFromPointer(System.IntPtr,System.Int32)">
+            <summary>
+            Функция копирования массива строк из указателя
+            </summary>
+            <param name="ptr">Указатель на массив строк</param>
+            <param name="length">Длинна массива</param>
+            <returns>Возвращает массив строк</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetFaceInfoArray(System.IntPtr,System.Int32)">
+            <summary>
+            Функция копирует данные из указателя в массив FaceInfo
+            </summary>
+            <param name="faces">Указатель на массив детектированных лиц</param>
+            <param name="length">Длинна массива детектированных лиц</param>
+            <returns>Возвращает массив детектированных лиц</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetSimilarityListRecordArray(System.IntPtr,System.Int32)">
+            <summary>
+            Получение массива результатов выборки из указателя на него
+            </summary>
+            <param name="list">Указатель на массив результатов выборки</param>
+            <param name="length">Длинна массива результатов</param>
+            <returns>Возвращает массив результатов выборки</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetDataFromPointer(System.IntPtr,System.Int32)">
+            <summary>
+            Получение массива байт из указателя заданной длинны
+            </summary>
+            <param name="template">Указатель на массив байт</param>
+            <param name="size">Размер массива</param>
+            <returns>Возвращает массив байт</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.CopyDataToPointer(System.Byte[])">
+            <summary>
+            Копирование массива байт в указатель
+            </summary>
+            <param name="data">Массив байт, установленный для копирования</param>
+            <returns>Возвращает указатель на массив байт заданной длинны</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.LoadTemplates(TS.Sdk.StaticFace.NetBinding._Template[])">
+            <summary>
+            Перевод массива шаблонов в массив указателей
+            </summary>
+            <param name="templates">Массив шаблонов</param>
+            <returns>Возвращает массив указателей</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetFaceFeatureArray(System.IntPtr,System.Int32)">
+            <summary>
+            Функция получения массива антропометрических признаков - точек из указателя. После получения массива, указатель удаляется
+            </summary>
+            <param name="feature">Указатель на массив антропометрических точек</param>
+            <param name="length">Длинна массива антропометрических точек</param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.Initialize(System.UInt32)">
+            <summary>
+            Инициализирует Sdk (загружает библиотеки распознавания)
+            </summary>
+            <param name="threadsCount">Количество потоков</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ReleaseResources">
+            <summary>
+            Освобождает ресурсы, выделенные в неуправляемой памяти для объектов распознавания
+            После функции ReleaseResources для повторного использования снова должна быть вызвана функция <see cref="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.Initialize(System.UInt32)"/>
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ReleasePointer(System.IntPtr)">
+            <summary>
+            Удаление указателя на массив байт полученного шаблона 
+            </summary>
+            <param name="data">Указатель на массив байт шаблона</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetLicenseInfo(TS.Sdk.StaticFace.NetBinding._LicenseInfo@)">
+            <summary>
+            Возвращает лицензионные ограничения данного экземпляра Sdk
+            </summary>
+            <param name="info">Структура, содержащая перечень лицензионных ограничений</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetVersionInfo(TS.Sdk.StaticFace.NetBinding._VersionInfo@)">
+            <summary>
+            Возвращает версию Sdk
+            </summary>
+            <param name="versionInfo">Информация о версии Sdk</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.RemoveTemplate(System.String,System.Guid)">
+            <summary>
+            Функция удаляет заданный шаблон из указанной выборки по ID
+            </summary>
+            <param name="setName">Имя выборки из которой необходимо удалить заданный шаблон</param>
+            <param name="templateId">ID Шаблона который нужно удалить</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.RemoveTemplates(System.String,System.DateTime,System.Int32@)">
+            <summary>
+            Функция удаления шаблонов из выборки, за указанный период
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="threshold">Нижний порог периода, за который необходимо удалить биометрические шаблоны</param>
+            <param name="removedCount">Количество удаленных шаблонов</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.Identify(System.IntPtr,System.Int32,System.String,System.Int32,System.Double,System.IntPtr@,System.Int32@)">
+            <summary>
+            Функция сравнивает заданный шаблон с заранее загруженной в память выборкой шаблонов и возвращает рекомендательный список
+            </summary>
+            <param name="temp">Указатель на массив байт шаблона</param>
+            <param name="templateLength">Длина массива байт шаблона</param>
+            <param name="setName">Имя поисковой выборки</param>
+            <param name="maxListLength">Максимальная длина поисковой выборки</param>
+            <param name="identificationThreshold">Порог принятия решения о включении кандидата в рекомендательный список</param>
+            <param name="list">Рекомендательный список, упорядоченный по мере убывания меры схожести (см. раздел SimilarityListRecord)</param>
+            <param name="length">Длина массива list</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.Identify(System.IntPtr,System.Int32,System.IntPtr[],System.Int32,System.Int32,System.Double,System.IntPtr@,System.Int32@)">
+            <summary>
+            ФУнкция сравнивает заданный шаблон с массивом шаблонов
+            </summary>
+            <param name="temp">Указатель на массив байт шаблона</param>
+            <param name="templateLength">Длина массива байт шаблона</param>
+            <param name="templates">Массив указателей шаблонов, с которыми производится сравнение. Должна передаваться структура <see cref="T:TS.Sdk.StaticFace.NetBinding._Template"/></param>
+            <param name="templatesLength">Длина массива шаблонов</param>
+            <param name="maxListLength">Максимальная длина поисковой выборки</param>
+            <param name="identificationThreshold">Порог принятия решения о включении кандидата в рекомендательный список</param>
+            <param name="list">Рекомендательный список, упорядоченный по мере убывания меры схожести (см. раздел SimilarityListRecord)</param>
+            <param name="length">Длина массива list</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.AddSearchSet(System.String)">
+            <summary>
+            Добавляет новую поисковую выборку
+            </summary>
+            <param name="setName">Имя поисковой выборки</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetSearchSetNames(System.IntPtr@,System.Int32@)">
+            <summary>
+            Функция возвращает имена существующих выборок
+            </summary>
+            <param name="names">Массив имен существующих поисковых выборок</param>
+            <param name="length">Длина массива</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.UploadTemplate(System.String,TS.Sdk.StaticFace.NetBinding._Template@)">
+            <summary>
+            Функция загружает шаблон в память
+            </summary>
+            <param name="setName">Имя поисковой выборки, в которую загружаются шаблоны</param>
+            <param name="temp">Шаблон, который должны быть загружен в память</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.UploadTemplates(System.String,System.IntPtr[],System.Int32)">
+            <summary>
+            Функция загружает шаблоны в память
+            </summary>
+            <param name="setName">Имя поисковой выборки, в которую загружаются шаблоны</param>
+            <param name="templates">Массив шаблонов, которые должны быть загружены в память</param>
+            <param name="length">Длина массива шаблонов</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ContainsTemplate(System.String,System.Guid,System.Boolean@)">
+            <summary>
+            Функция проверяет наличие биометрического шаблона в указанной выборке
+            </summary>
+            <param name="setName">Название выборки</param>
+            <param name="templateId">ID Шаблона</param>
+            <param name="result">Указывает на наличие шаблона в выборке</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetTemplatesCount(System.String,System.Int32@)">
+             <summary>
+            Функция возвращает загруженное в выборку кол-во шаблонв
+             </summary>
+             <param name="setName">Название выборки</param>
+             <param name="result">Кол-во шаблонов</param>
+             <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ClearTemplates(System.String)">
+            <summary>
+            Функция очищает указанную выборку отвсех загруженных шаблонв
+            </summary>
+            <param name="setName">Название выборки</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.DetectMaxFace(TS.Sdk.StaticFace.NetBinding._Image@,System.UInt32,System.Double,TS.Sdk.StaticFace.NetBinding._FaceInfo@)">
+            <summary>
+            Функция детектирует лицо наибольшего размера на изображении
+            </summary>        
+            <param name="image">Изображение, на котором необходимо детектировать максимальное лицо</param>
+            <param name="face">Характеристики детектированного лица</param>
+            <param name="detectionThreshold">Порог вероятности детектирования</param>
+            <param name="minFace">Минимальный размер лица, меньше которого область будет отброшена</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.DetectAllFaces(TS.Sdk.StaticFace.NetBinding._Image@,System.UInt32,System.Double,System.IntPtr@,System.Int32@)">
+            <summary>
+            Функция детектирования лиц на изображении
+            </summary>
+            <param name="image">Изображение, на котором необходимо детектриовать лица</param>
+            <param name="faces">Массив детектированных лиц</param>
+            <param name="faceCount">Кол-во детектированных лиц</param>
+            <param name="detectionThreshold">Порог вероятности детектирования</param>
+            <param name="minFace">Минимальный размер лица, меньше которого область будет отброшена</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.EstimateQuality(TS.Sdk.StaticFace.NetBinding._Image@,TS.Sdk.StaticFace.NetBinding._FaceInfo@,TS.Sdk.StaticFace.NetBinding._QualityParameters@)">
+            <summary>
+            Функция установки качества заданного изображения в пределах периметра заданной области лица
+            </summary>
+            <param name="image">Изображение, качество которого необходимо установить</param>
+            <param name="face">Область лица, координаты области изображения, по которому необходимо установить его качество</param>
+            <param name="parameters"></param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ExtractFaceFeatures(TS.Sdk.StaticFace.NetBinding._Image@,TS.Sdk.StaticFace.NetBinding._FaceInfo@,System.IntPtr@,System.Int32@)">
+            <summary>
+            Функция построения антропометрических точек по заданным изображению и области лица
+            </summary>
+            <param name="image">Изображении, на котором необходимо детектировать антропометрические признаки точки</param>
+            <param name="face">Заданная область лица на изображении, по которому необходимо определить другие антропометрические признаки - точки</param>
+            <param name="features">Массив антропометрических признаков - точек</param>
+            <param name="length">Количество найденных антропометрических признаков - точек</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.ExtractTemplate(TS.Sdk.StaticFace.NetBinding._Image@,TS.Sdk.StaticFace.NetBinding._FaceInfo@,TS.Sdk.StaticFace.NetBinding._Template@,System.Int32@)">
+            <summary>
+            Функция построения биометрического шаблона по заданной области лица на изображении.
+            </summary>
+            <param name="image">Изображение, по которому нужно построить биометрический шаблон</param>
+            <param name="face">Область лица и других атропометрических признаков, необходимых для построения шаблона</param>
+            <param name="template">Шаблон</param>
+            <param name="templateSize">Размер шбиометрическогоо шаблона - массива байт</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.Verify(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Double@)">
+            <summary>
+            Функция проводит верификацию двух биометрических шаблонов
+            </summary>
+            <param name="t1">Первый шаблон, представленный для верификации</param>
+            <param name="templateLength1"></param>
+            <param name="t2">Второй шаблон, представленный для верификации</param>
+            <param name="templateLength2"></param>
+            <param name="score">Мера сходства, которая была установлена в ходе верификации</param>
+            <returns>Возвращает код ошибки. В случае успешного проведения операции возвращает 0</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetFaceFeaturesDescription(System.IntPtr@,System.Int32@)">
+            <summary>
+            Функция возвращает количество и описание антропометрических точек
+            </summary>
+            <param name="features">Массив наименований антропометрических точек</param>
+            <param name="length">кол-во антропометрических точек</param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.InternalFunctions.GetTemplateSize">
+            <summary>
+            Возвращает размер шаблона в байтах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.LicenseInfo">
+            <summary>
+            Структура, описывающая лицензионные ограничения SDK
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.LicenseInfo.IsDetectionAvailable">
+            <summary>
+            Флаг, указывающий, что функции детектирования доступны
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.LicenseInfo.IsQualityCheckAvailable">
+            <summary>
+            Флаг, указывающий, что функции оценки качества доступны
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.LicenseInfo.IsIdentificationAvailable">
+            <summary>
+            Флаг, указывающий, что функции сравнения шаблонов доступны
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.LicenseInfo.IsFeatureExtractionAvailable">
+            <summary>
+            Флаг, указывающий, что функции извлечения дополнительных антропометрических признаков доступны
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.LicenseInfo.MaxTotalSearchTemplatesCount">
+            <summary>
+            Возвращает максимальное количество шаблонов во всех поисковых выборках
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._VersionInfo">
+            <summary>
+            Информация о версии продукта
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._LicenseInfo">
+            <summary>
+            Информация о конфигурации ядра расспознования
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.IsIdentificationAvailable">
+            <summary>
+            Флаг, указывающий, что функции сравнения шаблонов доступны
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.IsDetectionAvailable">
+            <summary>
+            Флаг, указывающий, что функции детектирования доступны
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.IsQualityCheckAvailable">
+            <summary>
+            Флаг, указывающий, что функции оценки качества доступны
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.IsFeatureExtractionAvailable">
+            <summary>
+            Флаг, указывающий, что функции извлечения дополнительных антропометрических признаков доступны
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.MaxTotalSearchTemplatesCount">
+            <summary>
+            Возвращает максимальное количество шаблонов во всех поисковых выборках
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._LicenseInfo.MaxSetSearchTemplatesCount">
+            <summary>
+            Возвращает максимальное количество шаблонов в одной поисковой выборке
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._FaceInfo">
+            <summary>
+            Информация об области лица и основных его координатах
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.YawAngle">
+            <summary>
+            Угол отклонения вправо или влево
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.PitchAngle">
+            <summary>
+            Угол отклонения вверх или вниз
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.DetectionProbability">
+            <summary>
+            Вероятность детектирования
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.LeftEye">
+            <summary>
+            Координата левого глаза
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.RightEye">
+            <summary>
+            Координата X правого глаза
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._FaceInfo.FaceRectangle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._Image">
+            <summary>
+            Представляет данные изображения 
+            (Система распознования использует для работы только 8-битные изрображения,
+            для этого необходимо перевести изображение в градации серого цвета)
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._Image.Stride">
+            <summary>
+            Шаг изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._Image.Width">
+            <summary>
+            Ширина изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._Image.Height">
+            <summary>
+            Высота изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._Image.Data">
+            <summary>
+            Данные изобаражения - указатель на массив пикселей
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._QualityParameters">
+            <summary>
+            Параметры качества изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._QualityParameters.PoorLighting">
+            <summary>
+            Недостаточная освещенность изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._QualityParameters.SideLighting">
+            <summary>
+            Боковая засветка изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._QualityParameters.LowContrast">
+            <summary>
+            Низкий контраст изображения
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._QualityParameters.Overlight">
+            <summary>
+            Изображение пересвечено
+            </summary>
+        </member>
+        <member name="F:TS.Sdk.StaticFace.NetBinding._QualityParameters.Blurred">
+            <summary>
+            Изображение размыто
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._FaceFeatureInfo">
+            <summary>
+            Антропологиеческие признаки лица
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding._Template">
+            <summary>
+            Биометрический шаблон
+            </summary>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.VersionInfo">
+            <summary>
+            Структура, описывающая версию библиотеки
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.VersionInfo.ToString">
+            <summary>
+            Возвращает строковое представление версии в виде Major.Minor.Build-Suffix
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.VersionInfo.Minor">
+            <summary>
+            Младший номер версии
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.VersionInfo.Major">
+            <summary>
+            Старший номер версии
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.VersionInfo.Build">
+            <summary>
+            Номер сборки
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.VersionInfo.Suffix">
+            <summary>
+            Дополнительный суффикс, который может нести дополнительную информацию о версии (например, beta, preview и пр.)
+            </summary>
+        </member>
+    </members>
+</doc>

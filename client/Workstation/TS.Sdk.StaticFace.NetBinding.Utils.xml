@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TS.Sdk.StaticFace.NetBinding.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.DrawingImageConverter">
+            <summary>
+            Вспомогательный класс для конвертирования в формат <see cref="T:System.Drawing.Image"/>
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.DrawingImageConverter.ConvertFrom(TS.Sdk.StaticFace.Model.Image)">
+            <summary>
+            Конвертирует <see cref="T:TS.Sdk.StaticFace.Model.Image"/> в <see cref="T:System.Drawing.Image"/>
+            </summary>
+            <param name="source">Входное изображение</param>
+            <returns>Объект <see cref="T:System.Drawing.Image"/></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.DrawingImageConverter.ConvertFrom(System.Byte[])">
+            <summary>
+            Конвертирует массив байт в <see cref="T:System.Drawing.Image"/>
+            </summary>
+            <param name="source">Массив байт</param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.DrawingImageConverter.ConvertFrom(System.Drawing.Image,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Конвертирует <see cref="T:System.Drawing.Image"/> в массив байт
+            </summary>
+            <param name="source">Изображение для конвертации</param>
+            <param name="format">Формат, в котором необходимо получить выходное изображение</param>
+            <returns></returns>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.FaceExtensions">
+            <summary>
+            Расширения для класса <see cref="T:TS.Sdk.StaticFace.Model.FaceInfo"/>
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.FaceExtensions.EyeDistance(TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Возвращает расстояние между глазами
+            </summary>
+            <param name="face"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.FaceExtensions.CenterPoint(TS.Sdk.StaticFace.Model.FaceInfo)">
+            <summary>
+            Возвращает центральную точку областил лица
+            </summary>
+            <param name="face"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.FaceExtensions.GetOverallQuality(TS.Sdk.StaticFace.Model.FaceInfo,TS.Sdk.StaticFace.Model.QualityParameters)">
+            <summary>
+            Вычисляет интегральный показатель качества на основе полученных признаков
+            </summary>
+            <param name="face">Детектированное изображение лица</param>
+            <param name="qualityParameters">Признаки качества</param>
+            <returns>Значение от 0 до 1, обозначающее интегральный показатель качества</returns>
+            <remarks>
+            При расчете интегрального показателя качества учитываются следующие параметры:
+            - расстояние между глазами
+            - вероятность детектирования лица <see cref="P:TS.Sdk.StaticFace.Model.FaceInfo.DetectionProbability"/>
+            - углы наклона и поворота головы <see cref="P:TS.Sdk.StaticFace.Model.FaceInfo.PitchAngle"/> и <see cref="P:TS.Sdk.StaticFace.Model.FaceInfo.YawAngle"/>
+            - дифференциальные показатели качества <see cref="T:TS.Sdk.StaticFace.Model.QualityParameters"/>
+            Обычно пригодным для авытоматического распознавания считается изображение лица, имеющее показатель качества от 0.8 до 1
+            </remarks>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.ImageFormatHelper">
+            <summary>
+            Вспомогательный класс для работы с форматами изображений
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.ImageFormatHelper.TryGetFormatByExtension(System.String)">
+            <summary>
+            Возвращает формат изображения по расширению
+            </summary>
+            <param name="fileName">Имя файла для проверки</param>
+            <returns></returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.ImageFormatHelper.TryGetFormatBySignature(System.Byte[])">
+            <summary>
+            Возвращает формат изображения по сигнатуре массива байт, содержащего сериализованное изображение
+            </summary>
+            <param name="serializedImage">Массив байт, содержащее сериализованное изображение</param>
+            <returns>Формат изображения или <c>null</c>, если определить формат не удалось</returns>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.ModelImageConverter">
+            <summary>
+            Вспомогательный класс для конвертирования во внутренний формат <see cref="T:TS.Sdk.StaticFace.Model.Image"/>
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.ModelImageConverter.ConvertFrom(System.Drawing.Bitmap)">
+            <summary>
+            Конвертирует <see cref="T:System.Drawing.Bitmap"/> во внутренний формат
+            </summary>
+            <param name="source">Входное изображение</param>
+            <returns>Внутренний формат изображения, пригодный для передачи в движок распознавания</returns>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.ModelImageConverter.ConvertFrom(System.Byte[])">
+            <summary>
+            Конвертирует массив байт, содержащий сериализованный <see cref="T:System.Drawing.Bitmap"/> во внутренний формат
+            </summary>
+            <param name="source">Массив байт, содержащий входное изображение</param>
+            <returns>Внутренний формат изображения, пригодный для передачи в движок распознавания</returns>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.ImageUtils">
+            <summary>
+            Вспомогательный класс для работы с изображениями
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.ImageUtils.Crop(System.Drawing.Image,TS.Sdk.StaticFace.Model.FaceInfo,TS.Sdk.StaticFace.NetBinding.Utils.CropOptions)">
+            <summary>
+            Вырезает лицо на изображении и уменьшает до заданного размера
+            </summary>
+            <param name="source">Исходное изображение</param>
+            <param name="face">Выделенная область лица</param>
+            <param name="options">Параметры обрезки</param>
+            <returns>Обрезанное изображение</returns>
+            <remarks>
+            Алгоритм формирования превью:
+            Для всех лиц обнаруженных на фотографии 
+            - рассчитать минимально возможное изображение (прямогульник по границам лица).
+            - увеличить размер прямоугольника на заданный коэффицент (в % от начальной оси )  по 1 оси симметрии 
+            - увеличить размер прямоугольника на заданный коэффицент (в % от начальной оси )  по 2 оси симметрии 
+            -- если полученные границы выходят за рамки фото - залить соответсвующущю площадь заданным цветом
+            -- если полученное изображение пересекается с другим фото - вырезать по границе пересечения и  залить заданным цветом
+            - если полученное превью превышает заданное - сжать
+            </remarks>
+            <exception cref="T:System.ArgumentNullException">Изображение не передано</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">Область лица слишком мала (ширина или высота менее 1)</exception>
+        </member>
+        <member name="T:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions">
+            <summary>
+            Настройки обрезки изображения
+            </summary>
+        </member>
+        <member name="M:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.#ctor">
+            <summary>
+            Создает объект <see cref="T:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions"/>
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.FillColor">
+            <summary>
+            Цвет заливки обрезанных полей
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.HorizontalMarginsFactor">
+            <summary>
+            Задает горизонтальные поля вокруг области лица. Задается в пропорции от ширины лица (2*расстояние между глазами)
+            По умолчанию равен 0
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.VerticalMarginsFactor">
+            <summary>
+            Задает вертикальные поля вокруг области лица. Задается в пропорции от высоты лица (5/4*2*расстояние между глазами)
+            По умолчанию равен 0
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.MaxCroppedSize">
+            <summary>
+            Максимально допустимый размер обрезанного изображения. Если размер обрезанного изображения превышает заданный, применяется масштабирование
+            </summary>
+        </member>
+        <member name="P:TS.Sdk.StaticFace.NetBinding.Utils.CropOptions.SaveImageRatio">
+            <summary>
+            Флаг, указывающий на необходимость сохранять пропорции при масштабировании изображения. По умолчанию равен <c>true</c>
+            </summary>
+        </member>
+    </members>
+</doc>
