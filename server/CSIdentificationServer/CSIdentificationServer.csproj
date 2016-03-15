@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Загрузки\КаскадПоток\Distr\server\x86\identifier\CSIdentificationServer.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EEEB2A6-4E51-4E7F-B946-C3F2920D5174}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>CSIdentificationServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.0.5674.31273</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonContracts">
+      <HintPath>lib\CommonContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicComponents">
+      <HintPath>lib\BasicComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="CS.StorableModel">
+      <HintPath>lib\CS.StorableModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Sdk.StaticFace.NetBinding">
+      <HintPath>lib\TS.Sdk.StaticFace.NetBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Sdk.StaticFace.Model">
+      <HintPath>lib\TS.Sdk.StaticFace.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="TS.Core.Model">
+      <HintPath>lib\TS.Core.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Core" />
+    <Reference Include="CS.ServiceHost">
+      <HintPath>lib\CS.ServiceHost.dll</HintPath>
+    </Reference>
+    <Reference Include="CS.Utils">
+      <HintPath>lib\CS.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="TS.MessagesCore">
+      <HintPath>lib\TS.MessagesCore.dll</HintPath>
+    </Reference>
+    <Reference Include="NotificationProtocol">
+      <HintPath>lib\NotificationProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="CS.DAL">
+      <HintPath>lib\CS.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EngineWorker.cs" />
+    <Compile Include="IniFileWorker.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="TemplateCashProvider.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="ProjectInstaller.cs" />
+    <Compile Include="CompareRequest.cs" />
+    <Compile Include="RawIdentifyResults.cs" />
+    <Compile Include="FrameInfo.cs" />
+    <Compile Include="KeysDataRow.cs" />
+    <Compile Include="IdentificationServer.cs" />
+    <Compile Include="SfinksClient.cs" />
+    <Compile Include="ProductInfo.cs" />
+    <Compile Include="IEngineWorker.cs" />
+    <Compile Include="IIniFileWorker.cs" />
+    <Compile Include="ITemplateCashProvider.cs" />
+    <Compile Include="CompareResult.cs" />
+    <Compile Include="TemplateInfo.cs" />
+    <Compile Include="RequestStatus.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IdentificationServer\ProjectInstaller.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
