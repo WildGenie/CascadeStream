@@ -1,0 +1,38 @@
+﻿Build started 25.05.2015 20:36:35.
+     1>Project "D:\Projects\TS.SDK.StaticFace.NetBinding\FaceRecognitionWrapper\FaceRecognitionWrapper.vcxproj" on node 3 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN64 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\FaceRecognition.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /D WIN64 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\FaceRecognition.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ApiSingleton.cpp FaceRecognitionObject.cpp SearchSet.cpp facekey_identification_common.cpp PublicAPI_Impl.cpp
+         ApiSingleton.cpp
+     1>ApiSingleton.cpp(293): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>ApiSingleton.cpp(295): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>ApiSingleton.cpp(448): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         FaceRecognitionObject.cpp
+     1>FaceRecognitionObject.cpp(62): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         SearchSet.cpp
+     1>SearchSet.cpp(12): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>SearchSet.cpp(16): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>SearchSet.cpp(64): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>SearchSet.cpp(101): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         facekey_identification_common.cpp
+         PublicAPI_Impl.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition.dll) does not match the Linker's OutputFile property value (D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition_cl.x64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(FaceRecognition) does not match the Linker's OutputFile property value (FaceRecognition_cl.x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition_cl.x64.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"ExportsFunction.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition_cl.x64.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition.lib" /MACHINE:X64 /DLL x64\Release\ApiSingleton.obj
+         x64\Release\FaceRecognitionObject.obj
+         x64\Release\SearchSet.obj
+         x64\Release\stdafx.obj
+         x64\Release\facekey_identification_common.obj
+         x64\Release\PublicAPI_Impl.obj
+            Creating library D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition.lib and object D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition.exp
+         FaceRecognitionWrapper.vcxproj -> D:\Projects\TS.SDK.StaticFace.NetBinding\bin\x64\Release\TS.Sdk.StaticFace\FaceRecognition.dll
+     1>Done Building Project "D:\Projects\TS.SDK.StaticFace.NetBinding\FaceRecognitionWrapper\FaceRecognitionWrapper.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.87
